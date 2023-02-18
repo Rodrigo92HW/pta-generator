@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/pta-generator/static/css/main.f48b8f81.css",
-    "main.js": "/pta-generator/static/js/main.a7db8a9e.js",
-    "static/media/In Progress....jpg": "/pta-generator/static/media/In Progress....d11de55563ac9f885ac2.jpg",
-    "static/media/PokeBall.png": "/pta-generator/static/media/PokeBall.84021ec342fde2dd0009.png",
-    "static/media/arte.png": "/pta-generator/static/media/arte.f002c9e55500f54aa87c.png",
-    "static/media/dice.png": "/pta-generator/static/media/dice.177e1ceb73abec98e8a9.png",
-    "static/media/discord.png": "/pta-generator/static/media/discord.87103b7fb8f04ea4d3ef.png",
-    "static/media/book.png": "/pta-generator/static/media/book.f24f8791e8d00192febf.png",
-    "static/media/card-games.png": "/pta-generator/static/media/card-games.533b9bb5a69518e128ea.png",
-    "static/media/github.png": "/pta-generator/static/media/github.553c66159c5672f25df6.png",
-    "static/media/PokeballBackground.jpg": "/pta-generator/static/media/PokeballBackground.def97f1e7ade9a497d09.jpg",
-    "static/media/linkedin.png": "/pta-generator/static/media/linkedin.45394e1bbe628643df3d.png",
-    "static/media/PokeBallVertical.png": "/pta-generator/static/media/PokeBallVertical.87eab7f192ed3a1cafda.png",
-    "static/media/unlock.png": "/pta-generator/static/media/unlock.7ab201989c6b0c5d5ac8.png",
-    "static/media/lock.png": "/pta-generator/static/media/lock.780fdea8cea54a2685fd.png",
-    "static/media/trash.png": "/pta-generator/static/media/trash.9947226900fa707b8e39.png",
-    "index.html": "/pta-generator/index.html",
-    "main.f48b8f81.css.map": "/pta-generator/static/css/main.f48b8f81.css.map",
-    "main.a7db8a9e.js.map": "/pta-generator/static/js/main.a7db8a9e.js.map"
+    "main.css": "/static/css/main.7370d7b3.css",
+    "main.js": "/static/js/main.43676807.js",
+    "static/media/In Progress....jpg": "/static/media/In Progress....d11de55563ac9f885ac2.jpg",
+    "static/media/PokeBall.png": "/static/media/PokeBall.84021ec342fde2dd0009.png",
+    "static/media/arte.png": "/static/media/arte.f002c9e55500f54aa87c.png",
+    "static/media/dice.png": "/static/media/dice.177e1ceb73abec98e8a9.png",
+    "static/media/discord.png": "/static/media/discord.87103b7fb8f04ea4d3ef.png",
+    "static/media/book.png": "/static/media/book.f24f8791e8d00192febf.png",
+    "static/media/card-games.png": "/static/media/card-games.533b9bb5a69518e128ea.png",
+    "static/media/github.png": "/static/media/github.553c66159c5672f25df6.png",
+    "static/media/PokeballBackground.jpg": "/static/media/PokeballBackground.def97f1e7ade9a497d09.jpg",
+    "static/media/linkedin.png": "/static/media/linkedin.45394e1bbe628643df3d.png",
+    "static/media/PokeBallVertical.png": "/static/media/PokeBallVertical.87eab7f192ed3a1cafda.png",
+    "static/media/unlock.png": "/static/media/unlock.7ab201989c6b0c5d5ac8.png",
+    "static/media/lock.png": "/static/media/lock.780fdea8cea54a2685fd.png",
+    "static/media/trash.png": "/static/media/trash.9947226900fa707b8e39.png",
+    "index.html": "/index.html",
+    "main.7370d7b3.css.map": "/static/css/main.7370d7b3.css.map",
+    "main.43676807.js.map": "/static/js/main.43676807.js.map"
   },
   "entrypoints": [
-    "static/css/main.f48b8f81.css",
-    "static/js/main.a7db8a9e.js"
+    "static/css/main.7370d7b3.css",
+    "static/js/main.43676807.js"
   ]
 }
