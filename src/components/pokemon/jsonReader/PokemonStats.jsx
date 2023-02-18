@@ -26,6 +26,7 @@ const PokemonStats = ({dataAlreadySet, pokemonSelected, stats, setStats, natureS
           SpeedMod: calcMod(updateStat(selectedPokemon.Speed, 'Speed'))
         })
       }
+    // eslint-disable-next-line
     }, [pokemonSelected, setStats, natureSelected]);
 
   //Incrementa estadistica
