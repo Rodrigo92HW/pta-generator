@@ -1,0 +1,2138 @@
+[
+    {
+        "Name" : "-",
+        "Price" : 0,
+        "Type" : "",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Potion",
+        "Price" : 100,
+        "Type" : "Medicines",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Heals a Pokémon 10 HP."
+    },
+    {
+        "Name" : "Super Potion",
+        "Price" : 300,
+        "Type" : "Medicines",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Heals a Pokémon 20 HP."
+    },
+    {
+        "Name" : "Hyper Potion",
+        "Price" : 550,
+        "Type" : "Medicines",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Heals a Pokémon 30 HP."
+    },
+    {
+        "Name" : "Max Potion",
+        "Price" : 850,
+        "Type" : "Medicines",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Heals a Pokémon to their Max HP."
+    },
+    {
+        "Name" : "Full Restore",
+        "Price" : 1200,
+        "Type" : "Medicines",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Heals a Pokémon to their Max HP and cures them of any afflictions."
+    },
+    {
+        "Name" : "Potion Water",
+        "Price" : 100,
+        "Type" : "Trainer Potions",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Heals a human 10 HP."
+    },
+    {
+        "Name" : "Super Soda",
+        "Price" : 300,
+        "Type" : "Trainer Potions",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Heals a human 20 HP."
+    },
+    {
+        "Name" : "Hyper Lemonade",
+        "Price" : 550,
+        "Type" : "Trainer Potions",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Heals a human 30 HP."
+    },
+    {
+        "Name" : "Antidote",
+        "Price" : 120,
+        "Type" : "Affliction Removal",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Cures a Pokémon or human of Poisoning or Toxification."
+    },
+    {
+        "Name" : "Paralyze Heal",
+        "Price" : 120,
+        "Type" : "Affliction Removal",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Cures a Pokémon or human or Paralysis."
+    },
+    {
+        "Name" : "Awakening",
+        "Price" : 120,
+        "Type" : "Affliction Removal",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Cures a Pokémon or human of being unnaturally Asleep."
+    },
+    {
+        "Name" : "Burn Heal",
+        "Price" : 120,
+        "Type" : "Affliction Removal",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Cures a Pokémon or human of Burns."
+    },
+    {
+        "Name" : "Ice Heal",
+        "Price" : 120,
+        "Type" : "Affliction Removal",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Cures a Pokémon or human of Freezing."
+    },
+    {
+        "Name" : "Full Heal",
+        "Price" : 520,
+        "Type" : "Affliction Removal",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Cures a Pokémon or human of all afflictions (excluding Curses)."
+    },
+    {
+        "Name" : "Basic Ball",
+        "Price" : 300,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "+5 to your capture roll."
+    },
+    {
+        "Name" : "Great Ball",
+        "Price" : 600,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "+0 to your capture roll."
+    },
+    {
+        "Name" : "Ultra Ball",
+        "Price" : 1000,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "5 from your capture roll."
+    },
+    {
+        "Name" : "Master Ball",
+        "Price" : 0,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-100 from your capture roll. The Master Ball can and will often fail when thrown at legendary Pokémon"
+    },
+    {
+        "Name" : "Park Ball",
+        "Price" : 550,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-20 from your capture roll against domesticated wild Pokémon."
+    },
+    {
+        "Name" : "Safari Ball",
+        "Price" : 550,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-20 from your capture roll against domesticated wild Pokémon."
+    },
+    {
+        "Name" : "Sport Ball",
+        "Price" : 550,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-20 from your capture roll against domesticated wild Pokémon."
+    },
+    {
+        "Name" : "Cherish Ball",
+        "Price" : 1500,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-5 from your capture roll. Captured Pokémon are more easily befriended."
+    },
+    {
+        "Name" : "Luxury Ball",
+        "Price" : 1500,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-5 from your capture roll. Captured Pokémon are more easily befriended."
+    },
+    {
+        "Name" : "Premier Ball",
+        "Price" : 1500,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : " -5 from your capture roll. Captured Pokémon are more easily befriended."
+    },
+    {
+        "Name" : "Dive Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-12 from your capture roll if the Pokémon is in water."
+    },
+    {
+        "Name" : "Dusk Ball",
+        "Price" : 1150,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-7 from your capture roll if it's night time (no sunlight)."
+    },
+    {
+        "Name" : "Fast Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-8 from your capture roll on a Pokémon that acts before your Pokémon."
+    },
+    {
+        "Name" : "Lure Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-10 from your capture roll if you lured the wild Pokémon into combat."
+    },
+    {
+        "Name" : "Quick Ball",
+        "Price" : 1550,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-20 from your capture roll if thrown as your first action during combat."
+    },
+    {
+        "Name" : "Repeat Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-10 from your capture roll the Pokémon already had a Poké Ball thrown at it this encounter."
+    },
+    {
+        "Name" : "Timer Ball",
+        "Price" : 1550,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-10 from your capture roll if the encounter has lasted at least one min; -25 from your capture roll if the encounter has lasted at least two mins."
+    },
+    {
+        "Name" : "Friend Ball",
+        "Price" : 1000,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "+0 to your capture roll. Captured Pokémon are more easily befriended."
+    },
+    {
+        "Name" : "Heal Ball",
+        "Price" : 1000,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "+0 to your capture roll. Captured Pokémon are healed 20 hit points."
+    },
+    {
+        "Name" : "Dream Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-10 from your capture roll if the Pokémon is afflicted."
+    },
+    {
+        "Name" : "Heavy Ball",
+        "Price" : 1250,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-15 from your capture roll if the Pokémon is Heavy or Superweight."
+    },
+    {
+        "Name" : "Level Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-10 from your capture roll if the Pokémon can evolve, but is not evolved."
+    },
+    {
+        "Name" : "Love Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-10 from your capture roll if the target is the opposite sex of your Pokémon."
+    },
+    {
+        "Name" : "Moon Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-10 from your capture roll if the Pokémon evolves with an evolution stone."
+    },
+    {
+        "Name" : "Nest Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-10 from your capture roll if the Pokémon can evolve, but is not evolved."
+    },
+    {
+        "Name" : "Net Ball",
+        "Price" : 1250,
+        "Type" : "Poké Balls",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "-15 from your capture roll when used against a Bug or Water type Pokémon."
+    },
+    {
+        "Name" : "Ether",
+        "Price" : 480,
+        "Type" : "Energy Restoration",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "A Pokémon's strength is partially restored and can again use one of its 1/day or 3/day frequency moves as if it has taken an extended rest."
+    },
+    {
+        "Name" : "Elixir",
+        "Price" : 1280,
+        "Type" : "Energy Restoration",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "A Pokémon's strength is restored and can again use its 1/day or 3/day frequency moves as if it taken an extended rest."
+    },
+    {
+        "Name" : "X Attack",
+        "Price" : 140,
+        "Type" : "Combat Enhancers",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Increases a Pokémon's Attack by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "X Defend",
+        "Price" : 140,
+        "Type" : "Combat Enhancers",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Increases a Pokémon's Defense by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "X Special",
+        "Price" : 140,
+        "Type" : "Combat Enhancers",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Increases a Pokémon's Special Attack by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "X Sp. Def",
+        "Price" : 140,
+        "Type" : "Combat Enhancers",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Increases a Pokémon's Special Defense by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "X Speed",
+        "Price" : 140,
+        "Type" : "Combat Enhancers",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Increases a Pokémon's Speed by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "X Accuracy",
+        "Price" : 320,
+        "Type" : "Combat Enhancers",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Increases a Pokémon's accuracy checks by 1 for 1 min. This effect does not stack."
+    },
+    {
+        "Name" : "Revive",
+        "Price" : 1350,
+        "Type" : "Revival Medicine",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Restore an unconscious Pokémon to half of its max HP."
+    },
+    {
+        "Name" : "Max Revive",
+        "Price" : 2950,
+        "Type" : "Revival Medicine",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Restore an unconscious Pokémon to its max HP."
+    },
+    {
+        "Name" : "Repel",
+        "Price" : 150,
+        "Type" : "Repels",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Wild Pokémon find the smell repulsive for one hour after applied, but may ignore it to protect something precious to them."
+    },
+    {
+        "Name" : "Super Repel",
+        "Price" : 450,
+        "Type" : "Repels",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Wild Pokémon find the smell repulsive for three hours after applied, but may ignore it to protect something precious to them."
+    },
+    {
+        "Name" : "HP Up",
+        "Price" : 9800,
+        "Type" : "Vitamins",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Permanently increase HP by 4."
+    },
+    {
+        "Name" : "Protein",
+        "Price" : 9800,
+        "Type" : "Vitamins",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Permanently increase Attack by 1."
+    },
+    {
+        "Name" : "Iron",
+        "Price" : 9800,
+        "Type" : "Vitamins",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Permanently increase Defense by 1."
+    },
+    {
+        "Name" : "Calcium",
+        "Price" : 9800,
+        "Type" : "Vitamins",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Permanently increase Special Attack by 1."
+    },
+    {
+        "Name" : "Zinc",
+        "Price" : 9800,
+        "Type" : "Vitamins",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Permanently increase Special Defense by 1."
+    },
+    {
+        "Name" : "Carbos",
+        "Price" : 9800,
+        "Type" : "Vitamins",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Permanently increase speed by 1."
+    },
+    {
+        "Name" : "Heal Powder",
+        "Price" : 480,
+        "Type" : "Repulsive Herbs",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Removes any affliction."
+    },
+    {
+        "Name" : "Energy Powder",
+        "Price" : 125,
+        "Type" : "Repulsive Herbs",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Recovers 25 Hit Points (Pokémon)."
+    },
+    {
+        "Name" : "Energy Root",
+        "Price" : 400,
+        "Type" : "Repulsive Herbs",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Recovers 50 Hit Points (Pokémon)."
+    },
+    {
+        "Name" : "Revival Herb",
+        "Price" : 1000,
+        "Type" : "Repulsive Herbs",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Recovers an unconscious Pokémon to half of their max HP."
+    },
+    {
+        "Name" : "Air Balloon",
+        "Price" : 1350,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "You are immune to Ground-type attacks. If you are hit by any other type of attack, Air Balloon is destroyed."
+    },
+    {
+        "Name" : "Absorb Bulb",
+        "Price" : 650,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When you are hit by a Water-type attack, Absorb Bulb is destroyed and your Special Attack is raised by 2 for 10 mins. This effect cannot be stacked."
+    },
+    {
+        "Name" : "Adrenaline Orb",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When your Attack or Special Attack is lowered by a foe's effects, your Speed is raised by 1 for 10 mins. This effect cannot be stacked."
+    },
+    {
+        "Name" : "Assault Vest",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Your Special Defense is +1. You may not use moves that do not deal damage on hit. This does not stack with stat passives."
+    },
+    {
+        "Name" : "Big Root",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When using an attack that heals you according to how much damage you deal, heal yourself an additional 1d6 hit points."
+    },
+    {
+        "Name" : "Binding Band",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When using an attack that deals damage while keeping a target bound, deal an additional 1d4 damage each turn."
+    },
+    {
+        "Name" : "Black Sludge",
+        "Price" : 1250,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When consumed and destroyed, a Poison-type Pokémon will recover 1d6 hit points each round for 2 mins or until at max hit points. If consumed by a non-Poison-type Pokémon, the Pokémon will lose 1d4 hit points each round for 2 mins or until knocked out."
+    },
+    {
+        "Name" : "Cell Battery",
+        "Price" : 650,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When you are hit by a Electric-type attack, Cell Battery is destroyed and your Attack is raised by 2 for 10 mins. This effect cannot be stacked."
+    },
+    {
+        "Name" : "Choice Band",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Your Attack is +2. Whenever you make an attack, that is the only attack you can use for 3 mins. If you can no longer use that move, you may still Struggle. This does not stack with stat passives."
+    },
+    {
+        "Name" : "Choice Scarf",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Your Speed is +2. Whenever you make an attack, that is the only attack you can use for 3 mins. If you can no longer use that move, you may still Struggle. This does not stack with stat passives."
+    },
+    {
+        "Name" : "Choice Specs",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Your Special Attack is +2. Whenever you make an attack, that is the only attack you can use for 3 mins. If you can no longer use that move, you may still Struggle. This does not stack with stat passives."
+    },
+    {
+        "Name" : "Destiny Knot",
+        "Price" : 1750,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "If you become Infatuated, the Pokémon who Infatuated you becomes Infatuated with you."
+    },
+    {
+        "Name" : "Elemental Plate",
+        "Price" : 9800,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Elemental Plates are named per Pokémon type (Bug Plate, Dark Plate, etc.) and empower any of your same-typed attacks, dealing an additional +4 damage."
+    },
+    {
+        "Name" : "Everstone",
+        "Price" : 550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "While held, a Pokémon will not be able to evolve. A Pokémon will also not get exhausted from fighting off evolution while held."
+    },
+    {
+        "Name" : "Eviolite",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "If you can still potentially evolve, your Defense and Special Defense are +1. This does not stack with stat passives."
+    },
+    {
+        "Name" : "Expert Belt",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "If you hit with a super effective or extremely effective attack, deal an additional 6 damage."
+    },
+    {
+        "Name" : "Focus Band",
+        "Price" : 1950,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "If you would be knocked out, roll 1d20. On 17 or higher, you are instead set to 1 hit point and the Focus Band is destroyed."
+    },
+    {
+        "Name" : "Focus Sash",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "If you would be knocked out from a single attack when you were at max hit points, instead you are set to 1 hit point once per battle."
+    },
+    {
+        "Name" : "Heavy Boots",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "You are immune to damage and effects of Hazards once per combat."
+    },
+    {
+        "Name" : "King's Rock",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When attacking, you stun targets on natural 18-20. Once you stun a target, King's Rock does not work for the rest of the day."
+    },
+    {
+        "Name" : "Leftovers",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When consumed, a Pokémon will recover 10 HP every 6 seconds until it's gained a total of 100 hit points, or has recovered to max HP, then Leftovers is destroyed and stops working."
+    },
+    {
+        "Name" : "Life Orb",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Whenever using an attack that deals damage on hit, deal an additional 1d6, then you lose 2d6 unreducible hit points."
+    },
+    {
+        "Name" : "Mental Herb",
+        "Price" : 650,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "If you are not allowed to use a move because of an effect of an opponent, you may consume and destroy the Mental Herb to ignore any effects that prevent you from using a move for 5 mins."
+    },
+    {
+        "Name" : "Muscle Band",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Your Attack is +2 on your first turn each combat. This does not stack with stat passives."
+    },
+    {
+        "Name" : "Protective Pads",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "If you would be damaged as a result of making a melee attack against a foe, ignore that damage."
+    },
+    {
+        "Name" : "Quick Claw",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "1/day, you may give one of your moves priority. If someone else uses a priority move, compare Speed for turn order."
+    },
+    {
+        "Name" : "Razor Claw",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When attacking, you score a critical hit on a natural roll of 18, 19, or 20. If you score a critical hit, Razor Claw does not work for the rest of the day."
+    },
+    {
+        "Name" : "Rocky Helmet",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Whenever you are hit by an attack at melee range, the offender loses 1d4 hit points."
+    },
+    {
+        "Name" : "Safety Goggles",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "You are immune to damaging effects from weather and powder effect moves."
+    },
+    {
+        "Name" : "Shell Bell",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Once per combat, on hit, your damaging attack will also heal you 1d4 hit points."
+    },
+    {
+        "Name" : "Terrain Extender",
+        "Price" : 450,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When activated Terrain Extender is destroyed and the terrain you create lasts for 5 mins."
+    },
+    {
+        "Name" : "Terrain Seeds",
+        "Price" : 650,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Terrain Seeds are named per type of terrain and are activated and destroyed when you step onto that type of terrain. When they are destroyed, your Defense is +1 for 10 mins. This effect cannot be stacked."
+    },
+    {
+        "Name" : "Throat Spray",
+        "Price" : 1850,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Once per day when you use a voice-oriented move, your Special Attack is raised +1 for 10 mins. This effect cannot be stacked."
+    },
+    {
+        "Name" : "Weather Rocks",
+        "Price" : 450,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Weather Rocks are named per type of weather and are activated and destroyed when you create that type of weather. When they are destroyed, the weather effect lasts for 5 mins."
+    },
+    {
+        "Name" : "White Herb",
+        "Price" : 650,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "When consumed and destroyed, remove all of your temporarily lowered stats effects."
+    },
+    {
+        "Name" : "Wise Glasses",
+        "Price" : 2550,
+        "Type" : "Held Items",
+        "Held" : 1,
+        "Taste" : [""],
+        "Effect" : "Your Special Attack is +2 on your first turn each combat. This does not stack with stat passives."
+    },
+    {
+        "Name" : "Oran",
+        "Price" : 0,
+        "Type" : "Berries",
+        "Held" : 55,
+        "Taste" : ["Spicy", "Dry", "Bitter", "Sour"],
+        "Effect" : "Heals a Pokémon 5 HP."
+    },
+    {
+        "Name" : "Sitrus",
+        "Price" : 120,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Dry", "Sweet", "Bitter", "Sour"],
+        "Effect" : "Heals a Pokémon 12 HP."
+    },
+    {
+        "Name" : "Aquav",
+        "Price" : 850,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Bitter"],
+        "Effect" : "Heals 1/3 of a Pokémon's max HP, then confuses them."
+    },
+    {
+        "Name" : "Figy",
+        "Price" : 850,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Spicy"],
+        "Effect" : "Heals 1/3 of a Pokémon's max HP, then confuses them."
+    },
+    {
+        "Name" : "Iapapa",
+        "Price" : 850,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Sour"],
+        "Effect" : "Heals 1/3 of a Pokémon's max HP, then confuses them."
+    },
+    {
+        "Name" : "Mago",
+        "Price" : 850,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Sweet"],
+        "Effect" : "Heals 1/3 of a Pokémon's max HP, then confuses them."
+    },
+    {
+        "Name" : "Wiki",
+        "Price" : 850,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Dry"],
+        "Effect" : "Heals 1/3 of a Pokémon's max HP, then confuses them."
+    },
+    {
+        "Name" : "Aspear",
+        "Price" : 120,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Sour"],
+        "Effect" : "Cures Freezing."
+    },
+    {
+        "Name" : "Cheri",
+        "Price" : 120,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Spicy"],
+        "Effect" : "Cures Paralysis."
+    },
+    {
+        "Name" : "Chesto",
+        "Price" : 120,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Dry"],
+        "Effect" : "Cures Sleep."
+    },
+    {
+        "Name" : "Pecha",
+        "Price" : 120,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Sweet"],
+        "Effect" : "Cures Poison and Toxin."
+    },
+    {
+        "Name" : "Persim",
+        "Price" : 180,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Spicy", "Dry", "Sweet", "Sour"],
+        "Effect" : "Cures Confusion."
+    },
+    {
+        "Name" : "Rawst",
+        "Price" : 120,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Bitter"],
+        "Effect" : "Cures Burns."
+    },
+    {
+        "Name" : "Lum",
+        "Price" : 580,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Spicy", "Dry", "Sweet", "Bitter"],
+        "Effect" : "Cures all Afflictions."
+    },
+    {
+        "Name" : "Grepa",
+        "Price" : 680,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Dry", "Sweet", "Sour"],
+        "Effect" : "Can lower Sp. Defense 1."
+    },
+    {
+        "Name" : "Hondew",
+        "Price" : 680,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Spicy", "Dry", "Bitter"],
+        "Effect" : "Can lower Sp. Attack 1."
+    },
+    {
+        "Name" : "Kelpsy",
+        "Price" : 680,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Dry", "Bitter", "Sour"],
+        "Effect" : "Can lower Attack 1."
+    },
+    {
+        "Name" : "Pomeg",
+        "Price" : 680,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Spicy", "Sweet", "Bitter"],
+        "Effect" : "Can lower max HP 4."
+    },
+    {
+        "Name" : "Qualot",
+        "Price" : 680,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Spicy", "Sweet", "Sour"],
+        "Effect" : "Can lower Defense 1."
+    },
+    {
+        "Name" : "Tamato",
+        "Price" : 680,
+        "Type" : "Berries",
+        "Held" : 0,
+        "Taste" : ["Spicy", "Dry"],
+        "Effect" : "Can lower Speed 1."
+    },
+    {
+        "Name" : "Babiri",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Dry"],
+        "Effect" : "Protection from Steel."
+    },
+    {
+        "Name" : "Charti",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Dry"],
+        "Effect" : "Protection from Rock."
+    },
+    {
+        "Name" : "Chilan",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sweet"],
+        "Effect" : "Protection from Normal."
+    },
+    {
+        "Name" : "Chople",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Bitter"],
+        "Effect" : "Protection from Fighting."
+    },
+    {
+        "Name" : "Coba",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Bitter"],
+        "Effect" : "Protection from Flying."
+    },
+    {
+        "Name" : "Colbur",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Bitter", "Sour"],
+        "Effect" : "Protection from Dark."
+    },
+    {
+        "Name" : "Haban",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Sweet", "Bitter"],
+        "Effect" : "Protection from Dragon."
+    },
+    {
+        "Name" : "Kasib",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sweet"],
+        "Effect" : "Protection from Ghost."
+    },
+    {
+        "Name" : "Kebia",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sour"],
+        "Effect" : "Protection from Poison."
+    },
+    {
+        "Name" : "Occa",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Sweet"],
+        "Effect" : "Protection from Fire."
+    },
+    {
+        "Name" : "Passho",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Bitter"],
+        "Effect" : "Protection from Water."
+    },
+    {
+        "Name" : "Payapa",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Sweet", "Sour"],
+        "Effect" : "Protection from Psychic."
+    },
+    {
+        "Name" : "Rindo",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Bitter"],
+        "Effect" : "Protection from Grass."
+    },
+    {
+        "Name" : "Roseli",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sweet"],
+        "Effect" : "Protection from Fairy."
+    },
+    {
+        "Name" : "Shuca",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Sweet"],
+        "Effect" : "Protection from Ground."
+    },
+    {
+        "Name" : "Tanga",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Sour"],
+        "Effect" : "Protection from Bug."
+    },
+    {
+        "Name" : "Wacan",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Sweet", "Sour"],
+        "Effect" : "Protection from Electric."
+    },
+    {
+        "Name" : "Yache",
+        "Price" : 540,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sour"],
+        "Effect" : "Protection from Ice."
+    },
+    {
+        "Name" : "Apicot",
+        "Price" : 1880,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Dry", "Sour"],
+        "Effect" : "At half HP or lower, increase Sp. Def by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "Ganlon",
+        "Price" : 1880,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sweet", "Bitter"],
+        "Effect" : "At half HP or lower, increase Defense by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "Lansat",
+        "Price" : 1880,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Bitter", "Spicy", "Sour", "Sweet"],
+        "Effect" : "At half HP or lower, you score critical hits on natural 18-20 for 1 min."
+    },
+    {
+        "Name" : "Liechi",
+        "Price" : 1880,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Dry", "Sweet"],
+        "Effect" : "At half HP or lower, increase Attack by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "Micle",
+        "Price" : 1880,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sweet"],
+        "Effect" : "At half HP or lower, increase your accuracy checks by 2 for 1 round."
+    },
+    {
+        "Name" : "Petaya",
+        "Price" : 1880,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Bitter", "Sour"],
+        "Effect" : "At half HP or lower, increase Sp. Atk by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "Salac",
+        "Price" : 1880,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Sweet", "Bitter", "Sour"],
+        "Effect" : "At half HP or lower, increase Speed by 1 for 2 mins. This effect does not stack."
+    },
+    {
+        "Name" : "Starf",
+        "Price" : 1280,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Sweet", "Bitter", "Sour"],
+        "Effect" : "At half HP or lower, increase a random stat by 1 for 2 mins."
+    },
+    {
+        "Name" : "Custap",
+        "Price" : 0,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Sweet", "Bitter"],
+        "Effect" : "When at 5 HP or less, your next At-Will attack has priority."
+    },
+    {
+        "Name" : "Enigma",
+        "Price" : 0,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Spicy", "Dry"],
+        "Effect" : "When hit by a super-effective or extremely-effective attack, restore HP equal to 1/4th of your max HP."
+    },
+    {
+        "Name" : "Jacoba",
+        "Price" : 0,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Bitter", "Sour"],
+        "Effect" : "When hit by a melee Attack move, the offender loses HP equal to 1/4th the damage you just took."
+    },
+    {
+        "Name" : "Kee",
+        "Price" : 0,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sweet"],
+        "Effect" : "When hit by an Attack move, increase Defense by 1 for 2 mins."
+    },
+    {
+        "Name" : "Leppa",
+        "Price" : 0,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Bitter", "Spicy", "Sour", "Sweet"],
+        "Effect" : "Restore the use of one 3/day frequency move as if you've had an extended rest."
+    },
+    {
+        "Name" : "Maranga",
+        "Price" : 0,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Bitter"],
+        "Effect" : "When hit by an Sp. Atk move, increase Sp. Def by 1 for 2 mins."
+    },
+    {
+        "Name" : "Rowat",
+        "Price" : 0,
+        "Type" : "Berries",
+        "Held" : 1,
+        "Taste" : ["Dry", "Sweet"],
+        "Effect" : "When hit by a ranged Sp. Atk move, the offender loses HP equal to 1/4th the damage you just took."
+    },
+    {
+        "Name" : "Dawn Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Dusk Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Fire Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Ice Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Leaf Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Moon Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Shiny Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Sun Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Thunder Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Water Stone",
+        "Price" : 9800,
+        "Type" : "Evolution Stones",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "TM (At-Will)",
+        "Price" : 4800,
+        "Type" : "Technical Machines",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Teach at-will frequency moves."
+    },
+    {
+        "Name" : "TM (3/day)",
+        "Price" : 9800,
+        "Type" : "Technical Machines",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Teach 3/day frequency moves."
+    },
+    {
+        "Name" : "TM (1/day)",
+        "Price" : 16800,
+        "Type" : "Technical Machines",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Teach 1/day frequency moves."
+    },
+    {
+        "Name" : "Basic Tool Kit",
+        "Price" : 150,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Basic tools for basic repairs or maintenance. Includes hammer, screwdriver (adaptable head), wrench, handsaw, steel ruler, level, nails (40 assorted), screws (40 assorted), nuts and bolts (40 assorted), and a tackle box they fit snuggly in with little room for anything else. 8 lbs. 14x6x6 in."
+    },
+    {
+        "Name" : "Camera Bag",
+        "Price" : 150,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Everything you need as a travelling photographer, minus the camera. Includes lenses (3), extra bulbs (2), gaffer tape, microfiber cloth, micro screw driver, micro flash light, extra battery (1), extra memory card (20 GB), ear plugs, and the bag which has room for your camera (camera not included). 18x10x8 in. 3 lbs."
+    },
+    {
+        "Name" : "Cooking Kit",
+        "Price" : 850,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "For the chef on the go, in the wilds. Includes portable electric stove (2 burners), cast iron pan, cast iron pot with lid, water purifier, cutting board, cutting knife, measuring cups and spoons, spatula, cooking spoon, and a sturdy bag it all fits into. The electric stove can be charged to use for two weeks after a 4-hour charge. 35 lbs. 2x2x1 ft. 4 ft strap."
+    },
+    {
+        "Name" : "Dig Kit",
+        "Price" : 150,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Whatever you're looking for, this should help. Includes extendable shovel, extendable pickaxe, hammer, trowel, compass, measuring tape (25ft), 6 in. stakes (10), string (600 ft), and a tool roll bag with some room for more equipment. 15 lbs. 16x6x4 in. 4ft strap."
+    },
+    {
+        "Name" : "Drawing Kit",
+        "Price" : 20,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "For an artist, or maybe just a doodler. Includes drawing pad (200pp), journal (200pp), blue pencils (10), mechanical pencils (2), kneaded eraser, white vinyl eraser, blender, pen and ink, assorted brush pens (10), and a bag with extra room to carry it all. 4 lbs. 20x18x3 in. 3ft strap."
+    },
+    {
+        "Name" : "Engineer's Tool Kit",
+        "Price" : 1050,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "If you're building something on the go, or taking something else apart, maybe you'll need this? Electric unfolding soldering table (2x2 ft), soldering iron, desoldering pump, assorted soldering iron tips (8), soldering assist tools (2), tin wire tube, tweezers, wire stripper cutter, electric wire (80 ft), long nose pliers (2), precision screwdriver, magnetic/gripping retrieving tool, telescoping mirror, various spare screws (100). The table folds into itself while storing all of the supplies, revealing a handle. 15 lbs. 24x12x4 in."
+    },
+    {
+        "Name" : "Fishing Kit",
+        "Price" : 750,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "For trainers who are looking to lure underwater Pokémon to the surface. Includes telescoping fishing rod, spare reel lines (2), assorted hooks (100), assorted bobbers (10), sinkers (10), assorted lures (10), needle nose pliers, small knife, and a tackle box with room to store a bit more. 8 lbs. 14x6x6 in."
+    },
+    {
+        "Name" : "Grooming Kit",
+        "Price" : 150,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Your Pokémon will always look their best when you're using this kit. Includes electronic trimmer, trimmer length attachments (8), assorted combs (5), assorted brushes (5), assorted scissors/shears (3), clippers, nail file, soap (8 oz.), shampoo (8 oz.), and bag with room for more. The trimmer can be charged to use for one week after a 1-hour charge. 4 lbs. 12x8x8 in. 2ft strap."
+    },
+    {
+        "Name" : "Make Up Kit",
+        "Price" : 150,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "You will always look your best when you're with this kit. Includes moisturizer (8 oz.), primers (2 3 oz.), concealers (2 3 oz.), foundation (3 oz.), assorted blush (4 2 oz.), assorted bronzer/highlighter (4 2 oz.), powders (4 3 oz.), setting spray (3 oz.), eyeliner pencil, liquid eyeliner (2 oz.), assorted mascara (4 1 oz.), lash curler, assorted lip balm (4 1 oz.), assorted lipstick (4), assorted lip gloss (4 1oz.), and a collapsing case with room to expand your options. 4 lbs. 16x12x4 in."
+    },
+    {
+        "Name" : "Medical Field Kit",
+        "Price" : 2150,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Even if you're not entirely sure how to use it, it's very useful to have. Includes pain relievers (20 pills), antihistamine (20 pills), cold/flu relievers (20pills), electrolyte tablets (20 pills), antiseptic solution (8oz.), antiseptic gel (8 oz.), medical adhesive tape (30ft), slings (2), crepe bandages (2 3ft. rolls), cloth bandages (4 3ft. rolls), gauze swabs (30), stitch strips (20), ear plugs (10), safety pins (20), thermometer, small scissors, small scalpel, tweezers, and assorted adhesive bandages (40), and a folding carrying case it all fits snuggly into. Basic safety for basic safe travel. The medical field kit can be used to keep trainers from dying but is less useful with Pokémon unless you are proficient in its use. As an action, you may use this kit and attempt a Medicine skill check of 15 to stabilize an unconscious trainer to 1 hit point. When out of combat, you may spend 5 minutes to stabilize an unconscious trainer to 1 hit point. When out of combat, you may attempt a Medicine skill check of 15 once per hour to cure a target of any affliction. The medical field kit has many pieces and should be maintained and stocked. 10 lbs. 2x1.5x.025 ft."
+    },
+    {
+        "Name" : "Mess Kit",
+        "Price" : 10,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Everything you need to enjoy a meal on the go. Includes a plate, a bowl, a fork, a spoon, a knife, a cup, and a slip it all fits into neatly. 1.5 lbs. 10x10x3 in."
+    },
+    {
+        "Name" : "Miscreant's Pack",
+        "Price" : 250,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "There's no real reason to have this, let alone sell it. This may not be easily found and available in stores. Includes, solar charger, universal power adapter, universal adapter dongle, memory sticks (4 80 GB), micro file (2), lock picks (8), multi-head screwdriver, hammer, crowbar, small narrow saw, small narrow scissors, telescoping mirror, thin wire (20 ft), water bottle, and a backpack or side pack to fit everything with some extra room. 10 lbs. 30x16x16 in."
+    },
+    {
+        "Name" : "Poké Ball Smith Kit",
+        "Price" : 1250,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "If you're planning to make your own Poké Balls, this will be necessary. Includes electric unfolding soldering table (2x2 ft), soldering iron, desoldering pump, assorted soldering iron tips (8), tin wire tube, tweezers, wire stripper cutter, electric wire (80 ft), micro screwdriver, micro screws (400), micro glass and mirror spares (200), micro rods (200), micro steel sheets (200). The table folds into itself while storing all of the supplies, revealing a handle. 15 lbs. 24x12x4 in."
+    },
+    {
+        "Name" : "Portable Chemistry Set",
+        "Price" : 850,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Science on the go! Includes portable Bunsen burner, beakers (1 250 ml/1 50 ml), conical flask (100 ml), measuring cylinder (25ml), test tubes (6 10 ml), reusable spray bottles (6), test tube rack, heat clamps, thermometer, glass dropper, stirring rod, cleaning brush, corks (12), mortar and pestle, Nuffield spatula, and a padded case to hold everything securely. The reusable bottles can store concoctions to be reused once cleaned. 12 lbs. 2x1x1 ft. 4ft strap."
+    },
+    {
+        "Name" : "Sewing Kit",
+        "Price" : 200,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "This is useful for the designer on the go. Includes electronic folding sewing machine, measuring tape (6ft), assorted buttons and fasteners (50), assorted spools of thread (20), hand-sewing needles (10), fabric pens (10), bleach pen, stain removing pen, pins (50), needle threader, pincushion, fabric shears, seam ripper, thimbles. The sewing machine folds into itself while storing all of the supplies, revealing a handle. The sewing machine can be charged to use for two weeks after a 4-hour charge. 20 lbs. 2x1x1 ft."
+    },
+    {
+        "Name" : "Spiritualist' Pack",
+        "Price" : 60,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "For those who travel and spread the word of various greater beings. Includes solar charger, universal power adapter, religious texts (2), religious symbol, candles (10), incense sticks (20), waterproof matches (25), water bottle, and a backpack or side pack to fit everything with a great deal of extra room. 5 lbs. 30x16x16 in."
+    },
+    {
+        "Name" : "Studious Pack",
+        "Price" : 80,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Useful things for a trainer with a knack for academics. Includes, solar charger, universal power adapter, universal adapter dongle, memory stick (40 GB), binder, folders (6), notebooks (3), journal, notepad, pencils (5), pens (3), highlighter, vinyl eraser, pencil sharpener, ruler, headphones, water bottle, and a backpack or side pack to fit everything with extra room for your laptop among other things (laptop not included). 10 lbs. 30x16x16 in."
+    },
+    {
+        "Name" : "Traveler's Pack",
+        "Price" : 150,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Really useful gear for extended travel through the wilds. Includes collapsible pop-up tent (two-person 7x4 ft), tarp (8x10 ft), sleeping bag, pocket knife, solar flashlight, compass, waterproof matches (20), water bottle, and a compression sack with straps to snuggly fit everything. 15 lbs. 40x16x16 in."
+    },
+    {
+        "Name" : "Trainer's Pack",
+        "Price" : 80,
+        "Type" : "Trainer Pack Bundles",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Basic goods for trainer who's starting their journey. Includes solar charger, universal power adapter, compression bands (4), crepe bandages (4), micro screwdriver, water bottle, and a backpack or side pack to fit everything with a great deal of extra room. 5 lbs. 30x16x16 in."
+    },
+    {
+        "Name" : "Egg Incubator",
+        "Price" : 1350,
+        "Type" : "Portable Utility Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Egg incubators are electronic, reusable containers that safely keep and warm Pokémon eggs. Once charged over 4 hours, they last for weeks to keep the single egg inside safe from harm and warm to encourage healthy hatching. Egg Incubators can be dropped from up to 100 ft while keeping the egg inside safe. Incubators can be submerged in water without harming the egg. They are heavy, but easier than carrying eggs around in your arms. 15 lbs. 16x8x8 in. 4ft strap. (Generally carrying two in a backpack is a tight squeeze, but fine)"
+    },
+    {
+        "Name" : "Folding Bike",
+        "Price" : 950,
+        "Type" : "Portable Utility Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "A 3-speed bike that folds onto itself. Wheels are 26 in. Unfolded, its frame length and height are 48x40 in. It has telescoping handles and seats for any person's height. 25 lbs. 30x30x6 in. when folded."
+    },
+    {
+        "Name" : "Portable Berry Planter",
+        "Price" : 2800,
+        "Type" : "Portable Utility Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "By planting a berry in a portable berry planter, you create a mini-ecosystem for the berry to rapidly grow into a fruit bearing shrub, often producing two or even three berries. When planting a berry, roll a Nature skill check. Then when watering the berry once per day over the next five days, roll a Nature skill check each time. If you ever roll under 6, the shrub yields one berry when it fruits. If you roll over 5 each time, the shrub yields 2 berries when it fruits. If you ever roll over 20 without rolling under 6, the shrub yields 3 berries when it fruits. Failing to water the shrub at least once per day or harvesting its berries will kill the shrub. 3 lbs. 2x1x1 ft. 4ft strap."
+    },
+    {
+        "Name" : "Solar Charger",
+        "Price" : 50,
+        "Type" : "Portable Utility Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "An unfolding solar panel that charges devices. Leaving the array open in the sun helps to charge phones, computers, or maybe even other portable items. Does not hold a charge, instead only charging other things."
+    },
+    {
+        "Name" : "Blizzard Wear",
+        "Price" : 1050,
+        "Type" : "Survival Gear",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Carefully made clothes for humans protect them from harmful hail and snowstorms. While worn, human trainers do not take damage from Hailing weather both made by Pokémon or naturally occurring."
+    },
+    {
+        "Name" : "Desert Gear",
+        "Price" : 1050,
+        "Type" : "Survival Gear",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Carefully made clothes for humans protect them from harmful sandstorms and desert winds. While worn, human trainers do not take damage from Sandstorming weather both made by Pokémon or naturally occurring."
+    },
+    {
+        "Name" : "Wet Suit",
+        "Price" : 750,
+        "Type" : "Survival Gear",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Insulated body suit for diving in any waters. Includes gloves and flippers . While worn, human trainers will not suffer damage in even arctic temperatures."
+    },
+    {
+        "Name" : "Diving Gear",
+        "Price" : 1050,
+        "Type" : "Survival Gear",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : "Self contained underwater breathing apparatus . Allows for humans to explore underwater with enough air to breathe for two hours. The tank can be refilled above water with a solar-powered tank in two hours."
+    },
+    {
+        "Name" : "Backpack",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Ball bearings(25)",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Bedroll",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Binoculars (digital)",
+        "Price" : 45,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Blanket",
+        "Price" : 2,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Blanket (winter)",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Block and tackle",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Bolt cutter",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Briefcase",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Camera (digital high end)",
+        "Price" : 2850,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Camera (digital)",
+        "Price" : 450,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Camera (film high end)",
+        "Price" : 1050,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Case (aluminum)",
+        "Price" : 20,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Cell phone",
+        "Price" : 80,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Chain (10 ft)",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Chalk (10 sticks)",
+        "Price" : 1,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Clothes (brand names)",
+        "Price" : 100,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Clothes (custom-fit high end)",
+        "Price" : 1250,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Clothes (designer brands)",
+        "Price" : 350,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Clothes (camo fatigue)",
+        "Price" : 65,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Clothes (generic brands)",
+        "Price" : 35,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Clothes (workout / outdoors)",
+        "Price" : 20,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Computer (desktop)",
+        "Price" : 480,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Computer (laptop)",
+        "Price" : 980,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Computer (tablet)",
+        "Price" : 780,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Cooler bag (Foldable)",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Crowbar",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Duct Tape",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Flashlight",
+        "Price" : 2,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Flask",
+        "Price" : 4,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Gas mask",
+        "Price" : 25,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Grappling hook",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Hammer",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Hammer (sledge)",
+        "Price" : 15,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Handheld transceiver (pair)",
+        "Price" : 60,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Jacket (rain)",
+        "Price" : 65,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Jacket (snow)",
+        "Price" : 145,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Jacket (windbreaker)",
+        "Price" : 50,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Knife (folding)",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Ladder (folding, 10ft)",
+        "Price" : 15,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Lighter",
+        "Price" : 2,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Luggage bag (wheeled)",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Messenger bag",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Memory stick (100gb)",
+        "Price" : 45,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Metal Detector",
+        "Price" : 30,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Mobile Trailer Home (for 1)",
+        "Price" : 19800,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Mobile Trailer Home (for 4)",
+        "Price" : 39800,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Multi-purpose tool",
+        "Price" : 20,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Night-vision goggles",
+        "Price" : 350,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Padlock and key",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Pencils (10 coloring) ",
+        "Price" : 2,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Pencils (10 graphite)",
+        "Price" : 2,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Pens (10 coloring)",
+        "Price" : 2,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Pens (5 writing)",
+        "Price" : 2,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Pick",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Pitons (5)",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Pole (steel, 10 ft)",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Rope (50 ft)",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Saddle (large)",
+        "Price" : 35,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Saddle (massive)",
+        "Price" : 55,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Saddle (small)",
+        "Price" : 15,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Shovel (folding)",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Smartphone",
+        "Price" : 580,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Soap / Shampoo / Toothpaste",
+        "Price" : 4,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Tent (folding, two-person)",
+        "Price" : 35,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Vehicle (bus)",
+        "Price" : 248800,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Vehicle (car)",
+        "Price" : 49800,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Vehicle (camper)",
+        "Price" : 124800,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Vehicle (motorcycle)",
+        "Price" : 4980,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Vehicle (truck)",
+        "Price" : 69800,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Vehicle (van)",
+        "Price" : 49800,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Vial",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Wallet",
+        "Price" : 5,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Whistle",
+        "Price" : 2,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    },
+    {
+        "Name" : "Zip ties (30)",
+        "Price" : 10,
+        "Type" : "General Items",
+        "Held" : 0,
+        "Taste" : [""],
+        "Effect" : ""
+    }
+]

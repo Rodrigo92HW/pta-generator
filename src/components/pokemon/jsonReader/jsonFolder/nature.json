@@ -1,0 +1,191 @@
+[
+    {
+        "Name" : "-",
+        "Increase" : "",
+        "Decrease" : "",
+        "Likes" : "",
+        "Dislikes" : ""
+    },
+    {
+        "Name" : "Lonely",
+        "Increase" : "Attack",
+        "Decrease" : "Defense",
+        "Likes" : "Spicy",
+        "Dislikes" : "Sour"
+    },
+    {
+        "Name" : "Brave",
+        "Increase" : "Attack",
+        "Decrease" : "Speed",
+        "Likes" : "Spicy",
+        "Dislikes" : "Sweet"
+    },
+    {
+        "Name" : "Adamant",
+        "Increase" : "Attack",
+        "Decrease" : "SAttack",
+        "Likes" : "Spicy",
+        "Dislikes" : "Bitter"
+    },
+    {
+        "Name" : "Naughty",
+        "Increase" : "Attack",
+        "Decrease" : "SDefense",
+        "Likes" : "Spicy",
+        "Dislikes" : "Dry"
+    },
+    {
+        "Name" : "Bold",
+        "Increase" : "Defense",
+        "Decrease" : "Attack",
+        "Likes" : "Sour",
+        "Dislikes" : "Spicy"
+    },
+    {
+        "Name" : "Relaxed",
+        "Increase" : "Defense",
+        "Decrease" : "Speed",
+        "Likes" : "Sour",
+        "Dislikes" : "Sour"
+    },
+    {
+        "Name" : "Impish",
+        "Increase" : "Defense",
+        "Decrease" : "SAttack",
+        "Likes" : "Sour",
+        "Dislikes" : "Bitter"
+    },
+    {
+        "Name" : "Lax",
+        "Increase" : "Defense",
+        "Decrease" : "SDefense",
+        "Likes" : "Sour",
+        "Dislikes" : "Dry"
+    },
+    {
+        "Name" : "Timid",
+        "Increase" : "Speed",
+        "Decrease" : "Attack",
+        "Likes" : "Sweet",
+        "Dislikes" : "Spicy"
+    },
+    {
+        "Name" : "Hasty",
+        "Increase" : "Speed",
+        "Decrease" : "Defense",
+        "Likes" : "Sweet",
+        "Dislikes" : "Sour"
+    },
+    {
+        "Name" : "Jolly",
+        "Increase" : "Speed",
+        "Decrease" : "SAttack",
+        "Likes" : "Sweet",
+        "Dislikes" : "Bitter"
+    },
+    {
+        "Name" : "Naïve",
+        "Increase" : "Speed",
+        "Decrease" : "SDefense",
+        "Likes" : "Sweet",
+        "Dislikes" : "Dry"
+    },
+    {
+        "Name" : "Modest",
+        "Increase" : "SAttack",
+        "Decrease" : "Attack",
+        "Likes" : "Bitter",
+        "Dislikes" : "Spicy"
+    },
+    {
+        "Name" : "Mild",
+        "Increase" : "SAttack",
+        "Decrease" : "Defense",
+        "Likes" : "Bitter",
+        "Dislikes" : "Sour"
+    },
+    {
+        "Name" : "Quiet",
+        "Increase" : "SAttack",
+        "Decrease" : "Speed",
+        "Likes" : "Bitter",
+        "Dislikes" : "Sweet"
+    },
+    {
+        "Name" : "Rash",
+        "Increase" : "SAttack",
+        "Decrease" : "SDefense",
+        "Likes" : "Bitter",
+        "Dislikes" : "Dry"
+    },
+    {
+        "Name" : "Calm",
+        "Increase" : "SDefense",
+        "Decrease" : "Attack",
+        "Likes" : "Dry",
+        "Dislikes" : "Spicy"
+    },
+    {
+        "Name" : "Gentle",
+        "Increase" : "SDefense",
+        "Decrease" : "Defense",
+        "Likes" : "Dry",
+        "Dislikes" : "Sour"
+    },
+    {
+        "Name" : "Sassy",
+        "Increase" : "SDefense",
+        "Decrease" : "Speed",
+        "Likes" : "Dry",
+        "Dislikes" : "Sweet"
+    },
+    {
+        "Name" : "Careful",
+        "Increase" : "SDefense",
+        "Decrease" : "SAttack",
+        "Likes" : "Dry",
+        "Dislikes" : "Bitter"
+    },
+    {
+        "Name" : "Hardy",
+        "Increase" : "",
+        "Decrease" : "",
+        "Likes" : "",
+        "Dislikes" : ""
+    },
+    {
+        "Name" : "Docile",
+        "Increase" : "",
+        "Decrease" : "",
+        "Likes" : "",
+        "Dislikes" : ""
+    },
+    {
+        "Name" : "Serious",
+        "Increase" : "",
+        "Decrease" : "",
+        "Likes" : "",
+        "Dislikes" : ""
+    },
+    {
+        "Name" : "Bashful",
+        "Increase" : "",
+        "Decrease" : "",
+        "Likes" : "",
+        "Dislikes" : ""
+    },
+    {
+        "Name" : "Quirky",
+        "Increase" : "",
+        "Decrease" : "",
+        "Likes" : "",
+        "Dislikes" : ""
+    },
+    {
+        "Name" : "",
+        "Increase" : "",
+        "Decrease" : "",
+        "Likes" : "",
+        "Dislikes" : ""
+    }
+]
