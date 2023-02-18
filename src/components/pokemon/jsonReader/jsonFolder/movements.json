@@ -2520,6 +2520,18 @@
         "Keyword" : [""]
     },
     {
+        "Name" : "Last Respects",
+        "Type" : "Ghost",
+        "StatAdded" : "AttackMod",
+        "Range" : "Melee",
+        "RangeNumber" : "",
+        "RangeArea" : ["", 0],
+        "Frequency" : "1/Day",
+        "Damage" : "1d12",
+        "Effect" : "Last Respects deals +1d12 damage for each ally who has been knocked out this encounter (max +7d12).",
+        "Keyword" : [""]
+    },
+    {
         "Name" : "Lick",
         "Type" : "Ghost",
         "StatAdded" : "AttackMod",
