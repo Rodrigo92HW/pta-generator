@@ -15284,6 +15284,7 @@
     },
     {
     "Name" : "Basculin - Blue-Striped",
+    "RareName" : "basculin-blue-striped",
     "Type" : ["Water"],
     "Size" : "Small",
     "Weight" : "Medium",
@@ -15301,6 +15302,7 @@
     },
     {
     "Name" : "Basculin - White-Striped",
+    "RareName" : "basculin-white-striped",
     "Type" : ["Water"],
     "Size" : "Small",
     "Weight" : "Medium",
@@ -15318,6 +15320,7 @@
     },
     {
     "Name" : "Basculin - Red-Striped",
+    "RareName" : "basculin-red-striped",
     "Type" : ["Water"],
     "Size" : "Small",
     "Weight" : "Medium",
@@ -15335,6 +15338,7 @@
     },
     {
     "Name" : "Basculegion - Male",
+    "RareName" : "basculegion-male",
     "Type" : ["Water", "Ghost"],
     "Size" : "Large",
     "Weight" : "Heavy",
@@ -15352,6 +15356,7 @@
     },
     {
     "Name" : "Basculegion - Female",
+    "RareName" : "basculegion-female",
     "Type" : ["Water", "Ghost"],
     "Size" : "Large",
     "Weight" : "Heavy",
@@ -16713,5 +16718,22 @@
     "Move" : ["Aqua Ring", "Aqua Tail", "Take Down"],
     "Biology" : ["Water 2", "10 Days", "Herbivore", ["Ocean Reefs", "Ocean"]],
     "Category" : [4, 464, "NL"]
+    },
+    {
+    "Name" : "Silvally",
+    "Type" : [""],
+    "Size" : "Gigantic",
+    "Weight" : "Superweight",
+    "HitPoints" : 30,
+    "Attack" : 14,
+    "Defense" : 14,
+    "SAttack" : 14,
+    "SDefense" : 15,
+    "Speed" : 3,
+    "Skill" : ["Flopper", "Fountain", "Gilled", "Swimmer"],
+    "Passive" : ["Tearful Look", "Schooling"],
+    "Move" : ["Aqua Ring", "Aqua Tail", "Take Down"],
+    "Biology" : ["Water 2", "10 Days", "Herbivore", ["Ocean Reefs", "Ocean"]],
+    "Category" : [1, 465, "L"]
     }
 ]

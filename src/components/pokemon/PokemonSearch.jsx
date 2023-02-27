@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import pokemon from './jsonReader/jsonFolder/pokemon.json';
 import ReactSelect from 'react-select';
 
-const PokemonSearch = ({setSearchedPokemon, numCards, updateSearch}) => {
+const PokemonSearch = ({setSearchedPokemon, numCards, updateSearch, categories}) => {
     const [searchCondition, setSearchCondition] = useState("Type");
     const [searchValue, setSearchValue] = useState("");
     const [uniqueOptions, setUniqueOptions] = useState([]);
@@ -17,20 +17,49 @@ const PokemonSearch = ({setSearchedPokemon, numCards, updateSearch}) => {
         setSearchValue(value);
     };
 
-        //Se encarga de filtrar los pokemons a elegir
-        const filteredPokemon = useMemo(() => {
-            let filtered = pokemon;
-            if (searchCondition === "Egg Group") {
-                filtered = filtered.filter((p) => p.Biology[0].includes(searchValue));
-            } else if (searchCondition === "Diet") {
-                filtered = filtered.filter((p) => p.Biology[2].includes(searchValue));
-            } else if (searchCondition === "Biome") {
-                filtered = filtered.filter((p) => p.Biology[3] && p.Biology[3].includes(searchValue));
-            } else {
-                filtered = filtered.filter((p) => p[searchCondition].includes(searchValue));
+    const filteredPokemon = useMemo(() => {
+        let filtered = pokemon;
+        if (searchCondition === "Egg Group") {
+            filtered = filtered.filter((p) => p.Biology[0].includes(searchValue));
+        } else if (searchCondition === "Diet") {
+            filtered = filtered.filter((p) => p.Biology[2].includes(searchValue));
+        } else if (searchCondition === "Biome") {
+            filtered = filtered.filter((p) => p.Biology[3] && p.Biology[3].includes(searchValue));
+        } else {
+            filtered = filtered.filter((p) => p[searchCondition].includes(searchValue));
+        }
+
+        const checkedCategories = categories
+        .filter((category) => category.isChecked)
+        .map((category) => {
+            switch (category.name) {
+            case '1st':
+                return 1;
+            case '2nd':
+                return 2;
+            case '3rd':
+                return 3;
+            case 'No Evolution':
+                return 4;
+            case 'Legendary':
+                return 'L';
+            default:
+                return null;
             }
-            return filtered;
-        }, [searchCondition, searchValue]);
+        })
+        .filter((category) => category !== null);
+            filtered = filtered.filter((p) => {
+                const category = p.Category;
+                if (category.length === 2 && checkedCategories.includes(category[0])) {
+                    return true;
+                }
+                if (category.length === 3 && (category[2] === 'L' || checkedCategories.includes(category[0]))) {
+                    return true;
+                }
+                    return false;
+            });
+                return filtered;
+        }, [searchCondition, searchValue, categories]);
 
         //Sirve para cambiar Biology a la categoria correcta
         useEffect(() => {
