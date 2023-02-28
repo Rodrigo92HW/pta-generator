@@ -4368,6 +4368,18 @@
         "Keyword" : [""]
     },
     {
+        "Name" : "Hyper Blast",
+        "Type" : "Normal",
+        "StatAdded" : "SAttackMod",
+        "Range" : "Range",
+        "RangeNumber" : "",
+        "RangeArea" : ["Beam", 25],
+        "Frequency" : "1/Day",
+        "Damage" : "5d20",
+        "Effect" : "Hyper Beam has -2 during Accuracy Check. You cannot act during the next round. You may have Hyper Blast be a Psychic-type attack.",
+        "Keyword" : [""]
+    },
+    {
         "Name" : "Hyper Fang",
         "Type" : "Normal",
         "StatAdded" : "AttackMod",

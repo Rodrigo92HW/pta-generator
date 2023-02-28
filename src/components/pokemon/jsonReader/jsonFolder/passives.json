@@ -1046,5 +1046,9 @@
     {
         "Name" : "Zen Mode",
         "Text" : "Darmanitan changes to its Zen Mode when it is below half of its max HP"
+    },
+    {
+        "Name" : "Magnetic Flux",
+        "Text" : "+1 Defense, +1 Special Defense"
     }
 ]

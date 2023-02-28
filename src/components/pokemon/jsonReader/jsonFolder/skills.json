@@ -358,5 +358,30 @@
         "Name" : "Zapper",
         "Text" : "Pokémon with the zapper skill can produce controlled electricity or send electrical currents through various conductive materials. If an electrical device is capable of being recharged, a Pokémon with zapper can recharge it to full power slowly. If a Pokémon learns the move Charge, Charge Beam, Discharge, Electrify, Electro Ball, Parabolic Charge, Shock Wave, Spark, Thunder, Thunder Fang, Thunder Punch, Thunder Shock, Thunder Wave, Thunderbolt, Volt Tackle, Wild Charge, or Zap Cannon and does not have the zapper skill, they gain zapper.",
         "DisplayText" : "Can produce electricity"
+    },
+    {
+        "Name" : "Mind Control",
+        "Text" : "Can enslave up to three targets hit with Psychic-type attacks at a time",
+        "DisplayText" : "Can enslave up to three targets hit with Psychic-type attacks at a time"
+    },
+    {
+        "Name" : "Modular - Stakataka",
+        "Text" : "Modular Pokémon are often made up of separate units that make of their body or consciousness. Modular Pokémon can often take up different spaces simultaneously during combat and reshape themselves to fit in different ways at different sizes everywhere. Modular Pokémon stats do not change no matter how they are configured. Modular Pokémon cannot separate a part of themselves further than 50ft from any other part of their body. Consider the Pokémon: Falinks can reconfigure into six bodies, Magneton into three.",
+        "DisplayText" : "Consists of 137 parts"
+    },
+    {
+        "Name" : "Reach - Volcanion",
+        "Text" : "A Pokémon with reach may make melee attacks from up to 25 ft. away. Pokémon with reach are either really large or have a stretchy limb with which they can strike foes from a distance.",
+        "DisplayText" : "Melee range is 25 ft."
+    },
+    {
+        "Name" : "Voice Box",
+        "Text" : "Can mind control a person to speak through them",
+        "DisplayText" : "Can mind control a person to speak through them"
+    },
+    {
+        "Name" : "Reach - Melmetal",
+        "Text" : "A Pokémon with reach may make melee attacks from up to 25 ft. away. Pokémon with reach are either really large or have a stretchy limb with which they can strike foes from a distance.",
+        "DisplayText" : "Melee range is 25 ft."
     }
 ]
