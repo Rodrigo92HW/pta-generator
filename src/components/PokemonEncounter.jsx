@@ -24,7 +24,6 @@ const GenerateEncounter = () => {
             </label>
             );
         }
-
         const [categories, setCategories] = useState([
             { name: '1st', isChecked: true },
             { name: '2nd', isChecked: true },
@@ -32,14 +31,11 @@ const GenerateEncounter = () => {
             { name: 'No Evolution', isChecked: true },
             { name: 'Legendary', isChecked: true },
         ]);
-
         const handleToggle = (index) => {
             const newCategories = [...categories];
             newCategories[index].isChecked = !newCategories[index].isChecked;
             setCategories(newCategories);
         };
-
-    console.log(categories)
 
     return (
         <>

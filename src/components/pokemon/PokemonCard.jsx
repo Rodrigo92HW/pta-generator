@@ -6,6 +6,7 @@ import PokemonStats from './jsonReader/PokemonStats';
 import PokemonMovements from './jsonReader/PokemonMovements';
 import PokemonInfo from './jsonReader/PokemonInfo';
 import PokemonImage from './jsonReader/PokemonImage';
+import PokemonLegendary from './jsonReader/PokemonLegendary';
 
 
 const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) => {
@@ -54,7 +55,9 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
       const [selectedTypes, setSelectedTypes] = useState([]);
       //Constante que se encarga de trakear el numero de movimientos que el pokemon posee
       const [moveCount, setMoveCount] = useState(3);
-
+    //Parte de Legendary
+      //Datos de Legendario
+      const [legendary, setLegendary] = useState([]);
 
   //Funciones Internas
     //Mapea los nombres de los Pokemon
@@ -129,10 +132,11 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
       moves,
       selectedTypes,
       uploadedImage,
+      legendary,
       moveCount
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [index, pokemonName, inputDisabled, pokemonSelected, stats, actualHP, info, gender, pokemonType, passiveInfo, skillsInfo, natureSelected, itemEquipped, extras, image, moves, selectedTypes, uploadedImage, moveCount]);
+  }, [index, pokemonName, inputDisabled, pokemonSelected, stats, actualHP, info, gender, pokemonType, passiveInfo, skillsInfo, natureSelected, itemEquipped, extras, image, moves, selectedTypes, uploadedImage, moveCount, legendary]);
 
   //Esto aplica toda la data guardado, pero primero establece un switch para no resetear las cosas
   const [dataAlreadySet, setDataAlreadySet] = useState(false);
@@ -157,6 +161,7 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
       setSelectedTypes(pokemonData.selectedTypes || '');
       setMoveCount(pokemonData.moveCount || '');
       setUploadedImage(pokemonData.uploadedImage || '');
+      setLegendary(pokemonData.legendary || [])
       setDataAlreadySet(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -202,6 +207,13 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
             setActualHP={setActualHP}
           />
           </div>
+          <PokemonLegendary
+            dataAlreadySet={dataAlreadySet}
+            pokemonSelected={pokemonSelected}
+            inputDisabled={inputDisabled}
+            legendary={legendary}
+            setLegendary={setLegendary}
+          />
           <PokemonMovements
             dataAlreadySet={dataAlreadySet}
             pokemonSelected={pokemonSelected}

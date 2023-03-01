@@ -30,35 +30,39 @@ const PokemonSearch = ({setSearchedPokemon, numCards, updateSearch, categories})
         }
 
         const checkedCategories = categories
-        .filter((category) => category.isChecked)
-        .map((category) => {
-            switch (category.name) {
-            case '1st':
-                return 1;
-            case '2nd':
-                return 2;
-            case '3rd':
-                return 3;
-            case 'No Evolution':
-                return 4;
-            case 'Legendary':
-                return 'L';
-            default:
-                return null;
+            .filter((category) => category.isChecked)
+            .map((category) => {
+                switch (category.name) {
+                    case '1st':
+                        return 1;
+                    case '2nd':
+                        return 2;
+                    case '3rd':
+                        return 3;
+                    case 'No Evolution':
+                        return 4;
+                    case 'Legendary':
+                        return 'L';
+                    default:
+                        return null;
+                }
+            })
+            .filter((category) => category !== null);
+
+        filtered = filtered.filter((p) => {
+            const category = p.Category;
+            if (category.includes(0)) {
+                return false;
             }
-        })
-        .filter((category) => category !== null);
-            filtered = filtered.filter((p) => {
-                const category = p.Category;
-                if (category.length === 2 && checkedCategories.includes(category[0])) {
-                    return true;
-                }
-                if (category.length === 3 && (category[2] === 'L' || checkedCategories.includes(category[0]))) {
-                    return true;
-                }
-                    return false;
+            if (category.length === 2 && checkedCategories.includes(category[0])) {
+                return true;
+            }
+            if (category.length === 3 && (category[2] === 'L' || checkedCategories.includes(category[0]))) {
+                return true;
+            }
+            return false;
             });
-                return filtered;
+        return filtered;
         }, [searchCondition, searchValue, categories]);
 
         //Sirve para cambiar Biology a la categoria correcta

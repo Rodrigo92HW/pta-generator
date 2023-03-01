@@ -9,7 +9,6 @@ import nature from './jsonFolder/nature.json';
 
 const PokemonInfo = ({dataAlreadySet, pokemonSelected, inputDisabled, gender, setGender, info, setInfo, pokemonType, setPokemonType, pokemonApi, skillsInfo, setSkillsInfo, passiveInfo, setPassiveInfo, itemEquipped, setItemEquipped, natureSelected, setNatureSelected, extras, setExtras}) => {
 
-
     //Se encarga de mapear la info obtenida
     useEffect(() => {
       const selectedPokemon = pokemon.find(x => x.Name === pokemonSelected.value);

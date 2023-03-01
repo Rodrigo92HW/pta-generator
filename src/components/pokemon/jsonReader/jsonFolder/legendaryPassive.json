@@ -1,0 +1,294 @@
+[
+    {
+        "Name" : "RKS System",
+        "Effect" : "Silvally changes its type depending on which Memory is held by Silvally."
+    },
+    {
+        "Name" : "Soul-Heart",
+        "Effect" : "When an ally within line of sight is knocked out, your Special Attack is +6 for 10 mins."
+    },
+    {
+        "Name" : "Genesis Panic",
+        "Effect" : "When your HP is at 40 or less HP, all of your attacks become At-Will frequency. If you use a move that you normally would not be able to use any more per day due to its frequency, you lose 1d12 HP when you use it."
+    },
+    {
+        "Name" : "Folding Form",
+        "Effect" : "Once per turn as a free action, Genesect can change into its Folded Form or back into its regular form. While in its aerodynamic Folded Form, its Speed is 25, but Genesect cannot attack."
+    },
+    {
+        "Name" : "Force Field",
+        "Effect" : "+5 Defense, +5 Special Defense."
+    },
+    {
+        "Name" : "Mindslaver",
+        "Effect" : "When Mewtwo hits with a Psychic-type attack, the target must make a Concentration skill check of 11 or higher (Pokémon roll without adding anything). If they fail, Mewtwo may choose to deal no damage with the attack but now decides how the target acts on their turns until they make a Concentration Skill check of 16 or higher on their turn or Mewtwo dismisses them from control. Mewtwo can control up to 3 targets at a time."
+    },
+    {
+        "Name" : "Beast Boost",
+        "Effect" : "Whenever you knock out a foe, your highest stat is raised +1 for 10 mins."
+    },
+    {
+        "Name" : "Birds of Legend",
+        "Effect" : "You are compelled to compete for dominance in the presence of other Birds of Legend."
+    },
+    {
+        "Name" : "Legendary Sprint",
+        "Effect" : "If you move in one direction for more than 100 ft, your Speed becomes 30 until you change direction, stop, or attack. While moving at this speed, you may run over any terrain."
+    },
+    {
+        "Name" : "Guardian Deity",
+        "Effect" : "When at the post you are guarding (temple, shrine, sacred ground), you take 10 less damage from any attack."
+    },
+    {
+        "Name" : "Guardian Sync",
+        "Effect" : "The first time per day you are with at least one other Guardian and at least one ally's Guardian Deity is active, your max HP is 420."
+    },
+    {
+        "Name" : "Swords of Justice",
+        "Effect" : "Whenever you are fighting alongside another Sword of Justice, your attacks deal +6 damage. In addition, your Defense and Special Defense is +1 for each other Sword of Justice you are fighting alongside."
+    },
+    {
+        "Name" : "Force of Nature",
+        "Effect" : "As a free action, you may change into your Therian Form, or change back into your Incarnate Form."
+    },
+    {
+        "Name" : "Legendary Flight",
+        "Effect" : "If you move in one direction for more than 100 ft, your Speed becomes 30 until you change direction, stop, or attack."
+    },
+    {
+        "Name" : "Legendary Titans",
+        "Effect" : "When gathered with at least two other Legendary Titans, Regigigas is compelled to awaken if nearby."
+    },
+    {
+        "Name" : "Stone Age",
+        "Effect" : "Rock-type attacks used within 100ft of you deal +8 damage."
+    },
+    {
+        "Name" : "Frozen Core",
+        "Effect" : "Ice-type attacks used within 100ft of you deal +8 damage."
+    },
+    {
+        "Name" : "Augmented Alloy",
+        "Effect" : "Steel-type attacks used within 100ft of you deal +8 damage."
+    },
+    {
+        "Name" : "Transistor",
+        "Effect" : "Electric-type attacks used within 100ft of you deal +8 damage."
+    },
+    {
+        "Name" : "Dragon's Maw",
+        "Effect" : "Dragon-type attacks used within 100ft of you deal +8 damage."
+    },
+    {
+        "Name" : "Monstrous Strength",
+        "Effect" : "Regigigas can move mountains by shoving them as quickly as it can move."
+    },
+    {
+        "Name" : "Formidable Force",
+        "Effect" : "Normal-type attacks used within 100ft of you deal +8 damage."
+    },
+    {
+        "Name" : "Slow Start",
+        "Effect" : "At the beginning of each of its turns, Regigigas gets +2 Attack, +2 Special Attack, and +2 Speed unless those stats are at 20 or higher. Then, if Regigigas uses Giga Impact or Hyper Beam while any of its stats are at 20 or higher, its Attack, Special Attack, and Speed are reset to 2 each and all of its frequencies are refreshed as if Regigigas has taken a long rest."
+    },
+    {
+        "Name" : "Master of Birds",
+        "Effect" : "You are compelled to quell fighting between Articuno, Zapdos, and Moltres."
+    },
+    {
+        "Name" : "Guardian Multiscale",
+        "Effect" : "When you are above half Max HP, you take -1d20 damage from all attacks."
+    },
+    {
+        "Name" : "Master of Beasts",
+        "Effect" : "You are compelled to protect Raikou, Entei, and Suicune when any of them are in danger and you are nearby."
+    },
+    {
+        "Name" : "Golden Regenerator",
+        "Effect" : "You recover to Max HP and remove any failed death savings throws after resting for 1 hour."
+    },
+    {
+        "Name" : "Prince of the Sea",
+        "Effect" : "You are compelled to protect the ocean."
+    },
+    {
+        "Name" : "Guardian of the Forest",
+        "Effect" : "You are compelled to protect forests."
+    },
+    {
+        "Name" : "Victory Star",
+        "Effect" : "+5 to accuracy checks."
+    },
+    {
+        "Name" : "Sky Warrior",
+        "Effect" : "As a free action, you may change into your Sky Form, or change back into your Land Form."
+    },
+    {
+        "Name" : "Chilling Neigh",
+        "Effect" : "When you knock out a foe, your Attack is +2 for 10 mins."
+    },
+    {
+        "Name" : "As One",
+        "Effect" : "As a free action, Calyrex can begin to ride you. While mounted, you both move using the Speed of Calyrex Ice Rider or Shadow Rider. When acting, you both act at the same time and you both make attacks during the Calyrex Ice/Shadow Rider's turn. You are only knocked out once Calyrex Ice/Shadow Rider is knocked out. As a free action, Calyrex can dismount. Whenever Calyrex dismounts from you, your HP is set to full."
+    },
+    {
+        "Name" : "Rider",
+        "Effect" : "As a free action, Calyrex can mount Glastrier or Spectrier to become Calyrex Ice Rider or Calyrex Shadow Rider respectively. Whenever you mount, set your HP to up to three times your current HP in your new form. You gain all of the moves of Glastrier or Spectrier when you mount them while retaining your moves. As a free action, you may also dismount. When you dismount, your mount is set to their full HP and your HP is divided by 3 from whatever it was in your Ice Rider or Shadow Rider form."
+    },
+    {
+        "Name" : "Grim Neigh",
+        "Effect" : "When you knock out a foe, your Special Attack is +2 for 10 mins."
+    },
+    {
+        "Name" : "Chilling Neigh",
+        "Effect" : "When you knock out a foe, your Attack is +2 for 10 mins."
+    },
+    {
+        "Name" : "Unseen Fist",
+        "Effect" : "Your moves cannot be prevented by a Reaction move."
+    },
+    {
+        "Name" : "Hex Nut Fist",
+        "Effect" : "Your punching attacks deal +8 damage."
+    },
+    {
+        "Name" : "Mischief Maker",
+        "Effect" : "Once per turn you may open a portal connected to anywhere in the world or even another dimension as a free action. The portal is at least 10ft in diameter and can be up to 150ft in diameter. The portal remains open for up to 1 day and can be dismissed at any time as a free action. Hoopa can sustain up to 4 portals at a time."
+    },
+    {
+        "Name" : "Adaptive Combat",
+        "Effect" : "Once per turn as a free action you may change into your Balance, Attack, Defense, or Speed forms from any form."
+    },
+    {
+        "Name" : "Bad Dreams",
+        "Effect" : "Foes who are Asleep lose 20 HP on your turn when within 30 ft of you."
+    },
+    {
+        "Name" : "Intrepid Sword",
+        "Effect" : "+6 Attack."
+    },
+    {
+        "Name" : "Relic of Heroes",
+        "Effect" : "If you are in possession of your Hero Relic, you are in your Crowned Sword or Crowned Shield form."
+    },
+    {
+        "Name" : "Dauntless Shield",
+        "Effect" : "+6 Defense."
+    },
+    {
+        "Name" : "Guardian of Light",
+        "Effect" : "While in sunlight, you deal +1d12 damage with your attacks."
+    },
+    {
+        "Name" : "Guardian of Night",
+        "Effect" : "While in moonlight, you deal +1d12 damage with your attacks."
+    },
+    {
+        "Name" : "Trespasser Hunter",
+        "Effect" : "Your attacks against Ultra Beasts, Solgaleo, or Lunala deal +1d12 damage."
+    },
+    {
+        "Name" : "Neuroforce",
+        "Effect" : "Your super effective and extremely effective attacks add an additional die to their damage rolls. Super effective attacks made against you are treated as regular attacks. Extremely effective attacks made against you are treated as super effective attacks."
+    },
+    {
+        "Name" : "Pillager of Light",
+        "Effect" : "Necrozma can possess Solgaleo to become its Dusk Mane form or Lunala to become its Dawn Wings form. If Necrozma is able to posses both of them, it becomes its Ultra Mantle form. Necrozma only needs to touch Solgaleo or Lunala to possess them. Solgaleo or Lunala can only escape from Necrozma once Necrozma is knocked out. Necrozma also gains the moves of whoever Necrozma is possessing. When possessing Solgaleo, Lunala, or both, Necrozma's HP is set to its max HP in its new form. If Necrozma is somehow forcibly unable to posses either Solgaleo or Lunala, each Pokémon's HP is set to whatever Necrozma's HP was when they separated."
+    },
+    {
+        "Name" : "Primordial Sea",
+        "Effect" : "As a free action you may use Rain Dance ignoring its frequency."
+    },
+    {
+        "Name" : "Master of the Sea",
+        "Effect" : "If you encounter Groudon, you are compelled to flood the lands and fight them."
+    },
+    {
+        "Name" : "Desolate Land",
+        "Effect" : "As a free action you may use Sunny Day ignoring its frequency."
+    },
+    {
+        "Name" : "Master of the Land",
+        "Effect" : "If you encounter Kyogre, you are compelled to evaporate the seas and fight them."
+    },
+    {
+        "Name" : "Air Lock",
+        "Effect" : "As a free Reaction you may use Defog ignoring its frequency as often as you want every turn."
+    },
+    {
+        "Name" : "Master of the Skies",
+        "Effect" : "You are compelled to quell any fighting between Kyogre and Groudon."
+    },
+    {
+        "Name" : "Delta Stream",
+        "Effect" : "Your foes do not add dice to their attacks for super effective or extremely effective attacks due to your Flying-type."
+    },
+    {
+        "Name" : "Turboblaze",
+        "Effect" : "Your attacks ignore any passives that would redirect, negate or weaken them."
+    },
+    {
+        "Name" : "Teravolt",
+        "Effect" : "Your attacks ignore any passives that would redirect, negate or weaken them."
+    },
+    {
+        "Name" : "Absolute Zero",
+        "Effect" : "Your attacks ignore any passives that would redirect, negate or weaken them."
+    },
+    {
+        "Name" : "Unity of Energy",
+        "Effect" : "Kyurem can fuse with Reshiram to become its White Fusion form or Zekrom to become its Black Fusion form. Kyurem only needs to touch Reshiram or Zekrom to combine with them. Reshiram or Zekrom can only part from Kyurem's hold once Kyurem is knocked out. Kyurem also gains the moves of whoever Kyurem is fused with. When fusing, Kyurem is set to its max HP for its new form if is the first time it has fused in the last day, otherwise it is set to the highest HP of both members of the fusion. When separating from Reshiram or Zekrom; if you had more HP than any of their individual max HPs they are set to their max HP, otherwise each Pokémon is set to the HP you were at when you separated."
+    },
+    {
+        "Name" : "Fairy Aura",
+        "Effect" : "Fairy-type attacks deal +10 damage within 25ft of you."
+    },
+    {
+        "Name" : "Dark Aura",
+        "Effect" : "Dark-type attacks deal +10 damage within 25ft of you."
+    },
+    {
+        "Name" : "Aura Break",
+        "Effect" : "Dark-type and Fairy-type attacks deal -10 damage within 50ft of you. The Fairy Aura and Dark Aura Legendary Passives do not work within 50ft of you."
+    },
+    {
+        "Name" : "Life of the Land",
+        "Effect" : "Zygarde operates as tens of thousands of individual cells that observe the ecosystem while spread across world. An individual cell cannot battle and has only 6 HP. When a group of ten are together, Zygarde can combine and act as its 10% form. When a group of one-hundred are together, Zygarde can combine and act as its 50% form. When a group at least three-hundred are together, Zygarde can combine and act as its Complete form. Higher forms have access to the moves and abilities of lesser Zygarde forms."
+    },
+    {
+        "Name" : "God of Time",
+        "Effect" : "Dialga can warp time by either speeding it up, slowing it down, or stopping it altogether at-will. It can also travel through time to visit the past, present, and future. Others near Dialga when it freezes time may try and break free of manipulated time with a Concentration or Constitution check of 16 or higher on their turns (Pokémon do not add any modifiers)."
+    },
+    {
+        "Name" : "Master of the Temporal World",
+        "Effect" : "Dialga can freely move between the Temporal World and the real world. When moving to and from the Temporal World, it opens a portal that remains open for five seconds. In the Temporal World, Dialga can freely warp time at-will and travel through time to visit the past, present, and future. Others near Dialga when it manipulates time in the Temporal World may try and break free of manipulated reality with a Concentration or Constitution check of 18 or higher on their turns (Pokémon do not add any modifiers). When Dialga is serving as a protector of the universe, when it is at peace with space, or when it is in the possession of the Adamant Crystal, it can revert to its Origin Form at-will."
+    },
+    {
+        "Name" : "God of Space",
+        "Effect" : "Palkia can warp space by either making space harder to move through, easier to move through, or by halting things within it altogether at-will. It can also travel through space instantaneously to go anywhere it wants and can even move into parallel worlds. Others near Palkia when it manipulates space may try and break free of manipulated space with a Concentration or Constitution check of 16 or higher on their turns (Pokémon do not add any modifiers)."
+    },
+    {
+        "Name" : "Master of the Spatial World",
+        "Effect" : "Palkia can freely move between the Spatial World and the real world. When moving to and from the Spatial World, it opens a portal that remains open for five seconds. In the Spatial World, Palkia can freely warp space at-will and travel any distance instantly. Others near Palkia when it manipulates space in the Spatial World may try and break free of manipulated reality with a Concentration or Constitution check of 18 or higher on their turns (Pokémon do not add any modifiers). When Palkia is serving as a protector of the universe, when it is at peace with time, or when it is in the possession of the Lustrous Globe, it can revert to its Origin Form at-will."
+    },
+    {
+        "Name" : "Call of the Void",
+        "Effect" : "Giratina can open a hole into the Distortion World at will. It pulls targets in a 40ft diameter into the Distortion World, or back into the real world."
+    },
+    {
+        "Name" : "Master of the Distortion World",
+        "Effect" : "Giratina can freely move between the Distortion World and the real world. When moving to and from the Distortion World, it opens a portal that remains open for five seconds. When in the Distortion World, or in possession of the Griseous Core, Giratina is in its Origin Form. While in the real world, Giratina is in its Altered Form. In the Distortion World, Giratina can warp time and space at-will, travel through space instantaneously to go anywhere it wants, and travel through time to visit the past, present, and future. Others near Giratina when it manipulates time and space may try and break free of manipulated reality with a Concentration or Constitution check of 16 or higher on their turns (Pokémon do not add any modifiers)."
+    },
+    {
+        "Name" : "Darkest Day",
+        "Effect" : "Eternatus is a mobile Power Spot. It can Eternamax at-will as a free action and other Pokémon can Dynamax or Gigantamax when near it. Eternatus can remain Eternamaxed indefinitely. While Eternamaxed, it is treated as a Dynamax Pokémon, but may still use its non-Dynamax moves and is not restricted in its movement."
+    },
+    {
+        "Name" : "Multitype",
+        "Effect" : "As a free action, or as a free reaction, you can change your type to any type once per round. You can change your type before your attack's damage or even before taking damage. You cannot have more than one type at a time."
+    },
+    {
+        "Name" : "Creator",
+        "Effect" : "Once per round, Arceus can gain any passive or legendary passive until their next turn. Arceus cannot gain the same passive or legendary passive this way more than once per combat."
+    }
+]

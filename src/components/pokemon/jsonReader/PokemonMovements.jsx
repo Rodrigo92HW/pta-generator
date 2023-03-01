@@ -23,16 +23,17 @@ const PokemonMovements = ({dataAlreadySet, pokemonSelected, inputDisabled, stats
     } : {};
   }
 
-
       //Se encarga de mapear los tipos de los movimientos
       useEffect(() => {
         const [selectedPokemon] = pokemon.filter(x => x.Name === pokemonSelected.value);
         if(selectedPokemon && !dataAlreadySet) {
+          setMoveCount(moves.length);
           const movesData = selectedPokemon.Move.map(move => getMoveData(move));
           setMoves(movesData);
           setSelectedTypes(movesData.map(move => move.Type));
         }
-      }, [pokemonSelected, setSelectedTypes, setMoves, dataAlreadySet]);
+      // eslint-disable-next-line
+      }, [pokemonSelected, setSelectedTypes, setMoves, dataAlreadySet, moveCount]);
 
     //Provee las opciones de tipo
     const typeOptions = types.map(type => ({value: type, label: type}));
