@@ -7908,6 +7908,18 @@
         "Keyword" : [""]
     },
     {
+        "Name" : "Land's Wrath",
+        "Type" : "Ground",
+        "StatAdded" : "AttackMod",
+        "Range" : "Ranged",
+        "RangeNumber" : 40,
+        "RangeArea" : ["", 0],
+        "Frequency" : "3/Day",
+        "Damage" : "5d12",
+        "Effect" : "",
+        "Keyword" : [""]
+    },
+    {
         "Name" : "Roar of Time",
         "Type" : "Dragon",
         "StatAdded" : "SAttackMod",

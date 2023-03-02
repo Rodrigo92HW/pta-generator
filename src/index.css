@@ -143,6 +143,7 @@ a {
   grid-template-areas:'select'
                       'basic'
                       'moves'
+                      'legendary'
                       'info';
 }
 
@@ -955,6 +956,45 @@ button.decrease {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+/* Legendario */
+.pokemonLegendary {
+  grid-area: legendary;
+  margin-top: 10px;
+  border: solid 3px rgb(27, 2, 31);
+  box-shadow: 5px 2.5px 2.5px rgb(69, 6, 59);
+  padding: 4px 10px 3px 5px;
+  width: 96%;
+  background: linear-gradient(60deg, #FF0037, rgba(255,144,168,1), rgba(143, 147, 255, 1), rgba(143, 255, 158, 1), rgba(224, 255, 143, 1), rgba(255, 242, 143, 1), rgba(255, 143, 251, 1))
+}
+
+.pokemonLegendary h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 3px 6px 8px black;
+  text-align: center;
+}
+
+.move.Passive {
+  display: block;
+  background-color: #c3c0c8;
+  background-color: #616161;
+  background: linear-gradient(90deg, #d1c9cb, #9f9597, rgba(106,101,102,1))
+}
+
+.pokemonLegendary .name {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+  border: solid 3px rgb(64, 64, 64);
+  margin-bottom: 5px;
+}
+
+.pokemonLegendary .effect {
+  border: solid 1px rgb(64, 64, 64);
+  padding: 5px;
+  font-size: 18px;
 }
 
 /* } */

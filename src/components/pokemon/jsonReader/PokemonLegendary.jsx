@@ -19,7 +19,11 @@ const PokemonLegendary = ({dataAlreadySet, pokemonSelected, inputDisabled, stats
           setLegendaryPassive(legendaryData);
         }
         if (selectedPokemon.LegendaryActives) {
+          console.log('selectedPokemon.LegendaryActives:', selectedPokemon.LegendaryActives);
+
           const legendaryData = selectedPokemon.LegendaryActives.map(moveName => getMoveData(moveName))
+          console.log('selectedPokemon.LegendaryActives:', selectedPokemon.LegendaryActives);
+
           setLegendaryActive(legendaryData);
         }
       }
@@ -29,6 +33,7 @@ const PokemonLegendary = ({dataAlreadySet, pokemonSelected, inputDisabled, stats
     //Mapea los movimientos, da la data de ellos y la asigna
     function getMoveData(moveName) {
       const selectedMove = movements.find(x => x.Name === moveName);
+      console.log('move data:', selectedMove);
       return selectedMove ? {
         Name: selectedMove.Name,
         Type: selectedMove.Type,
@@ -59,10 +64,25 @@ const PokemonLegendary = ({dataAlreadySet, pokemonSelected, inputDisabled, stats
   const STAB = (index) => pokemonType.map(type => type.value).includes(selectedTypes[index]) ? 4 : 0;
 
 return (
-  <div className='pokemonlegendary'>
+  <div className='pokemonLegendary'>
+    <h1>Legendary</h1>
+    <div className='legendaryPassive'>
+      {legendaryPassive.length > 0 ? (
+        legendaryPassive.map((legendaryPassive, index) => (
+          <div key={index} className='move Passive'>
+            {legendaryPassive && (
+              <>
+                <div className='name'>{legendaryPassive.Name}</div>
+                <div className='effect'>{legendaryPassive.Effect}</div>
+              </>
+            )}
+          </div>
+        ))
+      ) : (null)}
+      </div>
     <div className='legendaryActive'>
     {legendaryActive.length > 0 ? (
-    <div className='pokemonlegendaryDisplay'>
+    <div className='pokemonLegendaryDisplay'>
       {legendaryActive.slice(0, moveCount).map((move, index) => (
         <div key={index} className={`move ${selectedTypes[index]}`} style={{background: `linear-gradient(to left, ${typeColors[selectedTypes[index]]}, #F7F7F7)`}}>
           <div className='moveName'>{move.Name}</div>
@@ -98,9 +118,6 @@ return (
     </div>
     ) : null}
     </div>
-      <div className='legendaryPassive'><label>Passive</label>
-        {legendaryPassive.length > 0 ? (legendaryPassive.map((legendaryPassive, index) => (<div key={index} className='legendaryPassiveInfo'>{legendaryPassive ? `${legendaryPassive.Name} (${legendaryPassive.Effect})` : ''}</div>))) : (null)}
-      </div>
   </div>
 )}
 
