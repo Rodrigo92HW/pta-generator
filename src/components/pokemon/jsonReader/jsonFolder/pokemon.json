@@ -16737,9 +16737,7 @@
     "Passive" : ["Metal Sound", "Scary Face", "Battle Armor"],
     "Move" : ["Pursuit", "X-Scissor", "Iron Head"],
     "Biology" : ["", "", "Omnivore", ["Caves", "Forests", "Mountains", "Urban Lab"]],
-    "Category" : [1, 465, "L"],
-    "LegendaryPassives" : [""],
-    "LegendaryActives" : [""]
+    "Category" : [1, 465, "L"]
     },
     {
     "Name" : "Silvally",
@@ -16814,7 +16812,6 @@
     "Move" : ["Psychic", "Aura Sphere", "Metronome"],
     "Biology" : ["", "", "Omnivore", ["Forests", "Mountains", "Rainforests"]],
     "Category" : [4, 468, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Enigma Transformation"]
     },
     {
@@ -16892,8 +16889,7 @@
     "Move" : ["Clear Smog", "Psybeam", "Power Gem", "Venom Drench", "Head Smash"],
     "Biology" : ["", "", "Omnivore", "Foreign Dimension"],
     "Category" : [4, 470, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Buzzwole",
@@ -16911,8 +16907,7 @@
     "Move" : ["Power-Up Punch", "Taunt", "Lunge", "Dynamic Punch", "Counter"],
     "Biology" : ["", "", "Omnivore", "Foreign Dimension"],
     "Category" : [4, 471, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Pheromosa",
@@ -16930,8 +16925,7 @@
     "Move" : ["Silver Wind", "Bounce", "Triple Kick", "Bug Buzz", "High Jump Kick"],
     "Biology" : ["", "", "Omnivore", "Foreign Dimension"],
     "Category" : [4, 472, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Xurkitree",
@@ -16949,8 +16943,7 @@
     "Move" : ["Signal Beam", "Thunderbolt", "Hypnosis", "Power Whip", "Zap Cannon"],
     "Biology" : ["", "", "Ergovore", "Foreign Dimension"],
     "Category" : [4, 473, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Celesteela",
@@ -16968,8 +16961,7 @@
     "Move" : ["Smack Down", "Mega Drain", "Flash Cannon", "Seed Bomb", "Heavy Slam"],
     "Biology" : ["", "", "Terravore", "Foreign Dimension"],
     "Category" : [4, 474, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Kartana",
@@ -16987,8 +16979,7 @@
     "Move" : ["Sacred Sword", "Leaf Blade", "X-Scissor", "Air Slash", "Psycho Cut"],
     "Biology" : ["", "", "Herbivore", "Foreign Dimension"],
     "Category" : [4, 475, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Guzzlord",
@@ -17006,8 +16997,7 @@
     "Move" : ["Stomping Tantrum", "Thrash", "Crunch", "Heavy Slam", "Dragon Rush"],
     "Biology" : ["", "", "Omnivore", "Foreign Dimension"],
     "Category" : [4, 476, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Stakataka",
@@ -17025,8 +17015,7 @@
     "Move" : ["Protect", "Rock Blast", "Rock Slide", "Stealth Rock", "Iron Head"],
     "Biology" : ["", "", "Terravore", "Foreign Dimension"],
     "Category" : [4, 477, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Blacephalon",
@@ -17062,9 +17051,7 @@
     "Passive" : ["Growl", "Nasty Plot"],
     "Move" : ["Peck", "Acid Spray", "Poison Jab"],
     "Biology" : ["", "", "Omnivore", "Foreign Dimension"],
-    "Category" : [1, 479, "L"],
-    "LegendaryPassives" : [""],
-    "LegendaryActives" : [""]
+    "Category" : [1, 479, "L"]
     },
     {
     "Name" : "Naganadel",
@@ -17082,8 +17069,7 @@
     "Move" : ["Air Cutter", "Fell Stinger", "Dragon Pulse", "Toxic"],
     "Biology" : ["", "", "Omnivore", "Foreign Dimension"],
     "Category" : [2, 479, "L"],
-    "LegendaryPassives" : ["Beast Boost"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Beast Boost"]
     },
     {
     "Name" : "Articuno",
@@ -17101,8 +17087,7 @@
     "Move" : ["Ice Beam", "Blizzard", "Hurricane", "Sheer Cold", "Roost"],
     "Biology" : ["", "", "Omnivore", ["Artic", "Tundra"]],
     "Category" : [4, 480, "L"],
-    "LegendaryPassives" : ["Birds of Legend"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Birds of Legend"]
     },
     {
     "Name" : "Articuno (Remote Isles)",
@@ -17140,8 +17125,7 @@
     "Move" : ["Drill Peck", "Thunderbolt", "Thunder", "Zap Cannon", "Roost"],
     "Biology" : ["", "", "Omnivore", ["Mountains", "Urban Plants"]],
     "Category" : [4, 482, "L"],
-    "LegendaryPassives" : ["Birds of Legend"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Birds of Legend"]
     },
     {
     "Name" : "Zapdos (Remote Isles)",
@@ -17179,8 +17163,7 @@
     "Move" : ["Fire Spin", "Flamethrower", "Heat Wave", "Burn Up", "Roost"],
     "Biology" : ["", "", "Omnivore", ["Caves", "Mountains"]],
     "Category" : [4, 484, "L"],
-    "LegendaryPassives" : ["Birds of Legend"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Birds of Legend"]
     },
     {
     "Name" : "Moltres (Remote Isles)",
@@ -17218,8 +17201,7 @@
     "Move" : ["Roar", "Thunder Fang", "Crunch", "Rain Dance", "Thunder"],
     "Biology" : ["", "", "Omnivore", ["Grasslands", "Mountains"]],
     "Category" : [4, 486, "L"],
-    "LegendaryPassives" : ["Legendary Sprint"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Legendary Sprint"]
     },
     {
     "Name" : "Entei",
@@ -17237,8 +17219,7 @@
     "Move" : ["Roar", "Fire Fang", "Flamethrower", "Fire Blast", "Eruption"],
     "Biology" : ["", "", "Omnivore", ["Caves", "Mountains"]],
     "Category" : [4, 487, "L"],
-    "LegendaryPassives" : ["Legendary Sprint"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Legendary Sprint"]
     },
     {
     "Name" : "Suicune",
@@ -17256,8 +17237,7 @@
     "Move" : ["Ice Fang", "Bubble Beam", "Aurora Beam", "Hydro Pump", "Rain Dance"],
     "Biology" : ["", "", "Omnivore", ["Forests", "Grasslands"]],
     "Category" : [4, 488, "L"],
-    "LegendaryPassives" : ["Legendary Sprint"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Legendary Sprint"]
     },
     {
     "Name" : "Tapu Koko",
@@ -17351,8 +17331,7 @@
     "Move" : ["Double Kick", "Metal Claw", "Iron Head", "Sacred Sword", "Close Combat"],
     "Biology" : ["", "", "Omnivore", ["Caves", "Forests", "Grasslands", "Mountains"]],
     "Category" : [4, 493, "L"],
-    "LegendaryPassives" : ["Swords of Justice"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Swords of Justice"]
     },
     {
     "Name" : "Terrakion",
@@ -17370,8 +17349,7 @@
     "Move" : ["Double Kick", "Smack Down", "Stone Edge", "Sacred Sword", "Close Combat"],
     "Biology" : ["", "", "Omnivore", ["Caves", "Forests", "Grasslands", "Mountains"]],
     "Category" : [4, 494, "L"],
-    "LegendaryPassives" : ["Swords of Justice"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Swords of Justice"]
     },
     {
     "Name" : "Virizion",
@@ -17389,8 +17367,7 @@
     "Move" : ["Double Kick", "Giga Drain", "Leaf Blade", "Sacred Sword", "Close Combat"],
     "Biology" : ["", "", "Omnivore", ["Caves", "Forests", "Grasslands", "Mountains"]],
     "Category" : [4, 495, "L"],
-    "LegendaryPassives" : ["Swords of Justice"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Swords of Justice"]
     },
     {
     "Name" : "Keldeo",
@@ -17408,8 +17385,7 @@
     "Move" : ["Double Kick", "Aqua Jet", "Bubble Beam", "Sacred Sword", "Close Combat"],
     "Biology" : ["", "", "Omnivore", ["Caves", "Forests", "Grasslands", "Mountains"]],
     "Category" : [4, 496, "L"],
-    "LegendaryPassives" : ["Swords of Justice"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Swords of Justice"]
     },
     {
     "Name" : "Tornadus - Incarnate Form",
@@ -17428,8 +17404,7 @@
     "Move" : ["Air Slash", "Dark Pulse", "Revenge", "Thrash", "Hurricane"],
     "Biology" : ["", "", "Omnivore", "Mountains"],
     "Category" : [4, 497, "L"],
-    "LegendaryPassives" : ["Force of Nature"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Force of Nature"]
     },
     {
     "Name" : "Tornadus - Therian Form",
@@ -17448,8 +17423,7 @@
     "Move" : ["Air Slash", "Dark Pulse", "Revenge", "Thrash", "Hurricane"],
     "Biology" : ["", "", "Omnivore", "Mountains"],
     "Category" : [4, 497, "L"],
-    "LegendaryPassives" : ["Force of Nature"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Force of Nature"]
     },
     {
     "Name" : "Thundurus - Incarnate Form",
@@ -17468,8 +17442,7 @@
     "Move" : ["Shock Wave", "Dark Pulse", "Revenge", "Thrash", "Thunder"],
     "Biology" : ["", "", "Omnivore", "Mountains"],
     "Category" : [4, 498, "L"],
-    "LegendaryPassives" : ["Force of Nature"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Force of Nature"]
     },
     {
     "Name" : "Thundurus - Therian Form",
@@ -17488,8 +17461,7 @@
     "Move" : ["Shock Wave", "Dark Pulse", "Revenge", "Thrash", "Thunder"],
     "Biology" : ["", "", "Omnivore", "Mountains"],
     "Category" : [0, 498, "L"],
-    "LegendaryPassives" : ["Force of Nature"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Force of Nature"]
     },
     {
     "Name" : "Landorus - Incarnate Form",
@@ -17508,8 +17480,7 @@
     "Move" : ["Extrasensory", "Rock Slide", "Earthquake", "Stone Edge", "Outrage"],
     "Biology" : ["", "", "Omnivore", "Mountains"],
     "Category" : [4, 499, "L"],
-    "LegendaryPassives" : ["Force of Nature"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Force of Nature"]
     },
     {
     "Name" : "Landorus - Therian Form",
@@ -17528,8 +17499,7 @@
     "Move" : ["Extrasensory", "Rock Slide", "Earthquake", "Stone Edge", "Outrage"],
     "Biology" : ["", "", "Omnivore", "Mountains"],
     "Category" : [0, 499, "L"],
-    "LegendaryPassives" : ["Force of Nature"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Force of Nature"]
     },
     {
     "Name" : "Enamorus - Incarnate Form",
@@ -17548,8 +17518,7 @@
     "Move" : ["Extrasensory", "Draining Kiss", "Crunch", "Moonblast", "Hyper Beam"],
     "Biology" : ["", "", "Omnivore", "Mountains"],
     "Category" : [4, 552, "L"],
-    "LegendaryPassives" : ["Force of Nature"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Force of Nature"]
     },
     {
     "Name" : "Enamorus - Therian Form",
@@ -17568,8 +17537,7 @@
     "Move" : ["Extrasensory", "Draining Kiss", "Crunch", "Moonblast", "Hyper Beam"],
     "Biology" : ["", "", "Omnivore", "Mountains"],
     "Category" : [0, 552, "L"],
-    "LegendaryPassives" : ["Force of Nature"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Force of Nature"]
     },
     {
     "Name" : "Latias",
@@ -17665,8 +17633,7 @@
     "Move" : ["Stomp", "Rock Throw", "Stone Edge", "Hammer Arm", "Hyper Beam"],
     "Biology" : ["", "", "Ergovore", ["Caves", "Mountains"]],
     "Category" : [4, 502, "L"],
-    "LegendaryPassives" : ["Legendary Titans"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Legendary Titans"]
     },
     {
     "Name" : "Regice",
@@ -17684,8 +17651,7 @@
     "Move" : ["Stomp", "Icy Wind", "Ice Beam", "Hammer Arm", "Hyper Beam"],
     "Biology" : ["", "", "Ergovore", ["Caves", "Mountains"]],
     "Category" : [4, 503, "L"],
-    "LegendaryPassives" : ["Legendary Titans"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Legendary Titans"]
     },
     {
     "Name" : "Registeel",
@@ -17703,8 +17669,7 @@
     "Move" : ["Metal Claw", "Iron Head", "Flash Cannon", "Hammer Arm", "Hyper Beam"],
     "Biology" : ["", "", "Ergovore", ["Caves", "Mountains"]],
     "Category" : [4, 504, "L"],
-    "LegendaryPassives" : ["Legendary Titans"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Legendary Titans"]
     },
     {
     "Name" : "Regieleki",
@@ -17760,8 +17725,7 @@
     "Move" : ["Stomp", "Confuse Ray", "Dizzy Punch", "Heavy Slam", "Giga Impact"],
     "Biology" : ["", "", "Ergovore", ["Caves", "Mountains", "Tundra"]],
     "Category" : [4, 507, "L"],
-    "LegendaryPassives" : ["Monstrous Strength", "Slow Start"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Monstrous Strength", "Slow Start"]
     },
     {
     "Name" : "Uxie",
@@ -17779,8 +17743,7 @@
     "Move" : ["Confusion", "Endure", "Yawn", "Future Sight", "Extrasensory"],
     "Biology" : ["", "", "Herbivore", ["Caves", "Lakes"]],
     "Category" : [4, 508, "L"],
-    "LegendaryPassives" : ["Seal of Calamity"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Seal of Calamity"]
     },
     {
     "Name" : "Mesprit",
@@ -17798,8 +17761,7 @@
     "Move" : ["Confusion", "Protect", "Lucky Chant", "Future Sight", "Extrasensory"],
     "Biology" : ["", "", "Herbivore", ["Caves", "Lakes"]],
     "Category" : [4, 509, "L"],
-    "LegendaryPassives" : ["Seal of Calamity"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Seal of Calamity"]
     },
     {
     "Name" : "Azelf",
@@ -17817,8 +17779,7 @@
     "Move" : ["Confusion", "Endure", "Yawn", "Future Sight", "Extrasensory"],
     "Biology" : ["", "", "Herbivore", ["Caves", "Lakes"]],
     "Category" : [4, 510, "L"],
-    "LegendaryPassives" : ["Seal of Calamity"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Seal of Calamity"]
     },
     {
     "Name" : "Heatran",
@@ -17836,7 +17797,6 @@
     "Move" : ["Iron Head", "Heat Wave", "Stone Edge", "Earthquake"],
     "Biology" : ["", "", "Terravore", ["Mountains", "Volcanoes"]],
     "Category" : [4, 511, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Magma Storm", "Volcanic Master"]
     },
     {
@@ -17855,7 +17815,6 @@
     "Move" : ["Water Gun", "Take Down", "Flamethrower", "Scald", "Hydro Pump"],
     "Biology" : ["", "", ["Omnivore", "Terravore"], ["Caves", "Mountains"]],
     "Category" : [4, 512, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Steam Eruption", "Volcanic Devastation"]
     },
     {
@@ -17911,9 +17870,7 @@
     "Passive" : ["Acid Armor", "Hydration"],
     "Move" : ["Supersonic", "Water Pulse", "Aqua Ring", "Dive", "Rain Dance"],
     "Biology" : ["", "", "Herbivore", "Ocean"],
-    "Category" : [4, 515, "L"],
-    "LegendaryPassives" : [""],
-    "LegendaryActives" : [""]
+    "Category" : [4, 515, "L"]
     },
     {
     "Name" : "Manaphy",
@@ -17931,8 +17888,7 @@
     "Move" : ["Supersonic", "Water Pulse", "Aqua Ring", "Dive", "Rain Dance"],
     "Biology" : ["", "", "Herbivore", "Ocean"],
     "Category" : [4, 516, "L"],
-    "LegendaryPassives" : ["Prince of the Sea"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Prince of the Sea"]
     },
     {
     "Name" : "Celebi",
@@ -17969,7 +17925,6 @@
     "Move" : ["Confusion", "Psychic", "Future Sight", "Wish"],
     "Biology" : ["", "", "Psiotroph", ["Caves", "Forests", "Mountains", "Space"]],
     "Category" : [4, 518, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Doom Desire", "Wishmaker"]
     },
     {
@@ -18007,7 +17962,6 @@
     "Move" : ["Drain Punch", "Shadow Punch", "Close Combat", "Sucker Punch"],
     "Biology" : ["", "", "Psiotroph", "Forests"],
     "Category" : [4, 520, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Spectral Thief"]
     },
     {
@@ -18027,7 +17981,6 @@
     "Move" : ["Magical Leaf", "Air Slash", "Energy Ball", "Synthesis"],
     "Biology" : ["", "", "Phototroph", ["Forests", "Grasslands"]],
     "Category" : [4, 521, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Seed Flare"]
     },
     {
@@ -18047,7 +18000,6 @@
     "Move" : ["Magical Leaf", "Air Slash", "Energy Ball", "Synthesis"],
     "Biology" : ["", "", "Phototroph", ["Forests", "Grasslands"]],
     "Category" : [0, 521, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Seed Flare"]
     },
     {
@@ -18106,7 +18058,6 @@
     "Move" : ["Power Gem", "Stealth Rock", "Stone Edge", "Moonblast"],
     "Biology" : ["", "", "Terravore", ["Caves", "Mountains"]],
     "Category" : [4, 523, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Mega Evolution - Diancie"]
     },
     {
@@ -18126,7 +18077,6 @@
     "Move" : ["Power Gem", "Stealth Rock", "Stone Edge", "Moonblast"],
     "Biology" : ["", "", "Terravore", ["Caves", "Mountains"]],
     "Category" : [0, 523, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Diamond Storm"]
     },
     {
@@ -18145,7 +18095,6 @@
     "Move" : ["Spark", "Thunder Punch", "Wild Charge", "Close Combat"],
     "Biology" : ["", "", "Ergovore", ["Forests", "Mountains", "Urban Abandoned"]],
     "Category" : [4, 524, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Plasma Fists"]
     },
     {
@@ -18164,7 +18113,6 @@
     "Move" : ["Bite", "Hammer Arm", "Thrash", "Power Whip"],
     "Biology" : ["", "", "Omnivore", ["Forests", "Jungles"]],
     "Category" : [4, 525, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Jungle Healing"]
     },
     {
@@ -18221,8 +18169,7 @@
     "Move" : ["Life Dew", "Psychic", "Future Sight", "Heal Pulse", "Solar Beam"],
     "Biology" : ["", "", "Herbivore", ["Artic", "Tundra"]],
     "Category" : [4, 528, "L"],
-    "LegendaryPassives" : ["Rider"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Rider"]
     },
     {
     "Name" : "Calyrex Ice Rider",
@@ -18279,9 +18226,7 @@
     "Passive" : ["Leer", "Focus Energy", "Inner Focus"],
     "Move" : ["Headbutt", "Rock Smash", "Aerial Ace"],
     "Biology" : ["", "", "Herbivore", ["Forests", "Urban"]],
-    "Category" : [1, 529, "L"],
-    "LegendaryPassives" : [""],
-    "LegendaryActives" : [""]
+    "Category" : [1, 529, "L"]
     },
     {
     "Name" : "Urshifu Single Strike",
@@ -18341,8 +18286,7 @@
     "Biology" : ["", "", "Herbivore", ["Forests", "Urban"]],
     "Category" : [0, 529, "L"],
     "LegendaryPassives" : ["Unseen Fist"],
-    "LegendaryActives" : ["Wicked Blow"],
-    "Gigantamax" : "G-Max One Blow"
+    "LegendaryActives" : ["Wicked Blow", "G-Max One Blow"]
     },
     {
     "Name" : "Gigantamax Urshifu Rapid Strike",
@@ -18362,8 +18306,7 @@
     "Biology" : ["", "", "Herbivore", ["Forests", "Urban"]],
     "Category" : [0, 529, "L"],
     "LegendaryPassives" : ["Unseen Fist"],
-    "LegendaryActives" : ["Wicked Blow"],
-    "Gigantamax" : "G-Max Rapid Flow"
+    "LegendaryActives" : ["Wicked Blow", "G-Max Rapid Flow"]
     },
     {
     "Name" : "Meltan",
@@ -18380,9 +18323,7 @@
     "Passive" : ["Acid Armor", "Magnetic Flux"],
     "Move" : ["Thunder Shock", "Headbutt", "Thunder Wave"],
     "Biology" : ["", "", ["Pollutivore", "Terravore"], "Urban Abandoned"],
-    "Category" : [1, 530, "L"],
-    "LegendaryPassives" : [""],
-    "LegendaryActives" : [""]
+    "Category" : [1, 530, "L"]
     },
     {
     "Name" : "Melmetal",
@@ -18421,8 +18362,7 @@
     "Biology" : ["", "", ["Pollutivore", "Terravore"], "Urban Abandoned"],
     "Category" : [0, 530, "L"],
     "LegendaryPassives" : ["Hex Nut Fist"],
-    "LegendaryActives" : ["Double Iron Bash"],
-    "Gigantamax" : "G-Max Meltdown"
+    "LegendaryActives" : ["Double Iron Bash", "G-Max Meltdown"]
     },
     {
     "Name" : "Hoopa - Bound",
@@ -18501,7 +18441,6 @@
     "Move" : ["Teleport", "Zen Headbutt", "Recover", "Psychic", "Zap Cannon", "Superpower"],
     "Biology" : ["", "", ["Pollutivore", "Terravore"], "Space"],
     "Category" : [0, 532, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Adaptive Combat", "Multilocation"]
     },
     {
@@ -18521,7 +18460,6 @@
     "Move" : ["Teleport", "Zen Headbutt", "Recover", "Psychic", "Counter", "Mirror Coat"],
     "Biology" : ["", "", ["Pollutivore", "Terravore"], "Space"],
     "Category" : [0, 532, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Adaptive Combat", "Multilocation"]
     },
     {
@@ -18541,7 +18479,6 @@
     "Move" : ["Teleport", "Zen Headbutt", "Recover", "Psychic", "Double Team", "Extreme Speed"],
     "Biology" : ["", "", ["Pollutivore", "Terravore"], "Space"],
     "Category" : [0, 532, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Adaptive Combat", "Multilocation"]
     },
     {
@@ -18579,7 +18516,6 @@
     "Move" : ["Confusion", "Aurora Beam", "Psychic", "Moonblast", "Moonlight"],
     "Biology" : ["", "", "Herbivore", ["Forests", "Rainforests", "Mountains"]],
     "Category" : [4, 534, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Lunar Dance"]
     },
     {
@@ -18599,8 +18535,7 @@
     "Move" : ["Crunch", "Metal Claw", "Sacred Sword", "Moonblast"],
     "Biology" : ["", "", "Omnivore", ["Forests", "Mountains"]],
     "Category" : [4, 535, "L"],
-    "LegendaryPassives" : ["Intrepid Sword", "Relic of Heroes"],
-    "LegendaryActives" : [""]
+    "LegendaryPassives" : ["Intrepid Sword", "Relic of Heroes"]
     },
     {
     "Name" : "Zacian - Crowned Sword",
@@ -18678,7 +18613,6 @@
     "Move" : ["Splash"],
     "Biology" : ["", "", "Phototroph", ["Forests", "Mountains", "Space"]],
     "Category" : [1, 537, "L"],
-    "LegendaryPassives" : [""],
     "LegendaryActives" : ["Tireless Teleport"]
     },
     {
@@ -18696,9 +18630,7 @@
     "Passive" : ["Cosmic Power", "Sturdy"],
     "Move" : ["Bide"],
     "Biology" : ["", "", "Phototroph", ["Forests", "Mountains", "Space"]],
-    "Category" : [2, 537, "L"],
-    "LegendaryPassives" : [""],
-    "LegendaryActives" : [""]
+    "Category" : [2, 537, "L"]
     },
     {
     "Name" : "Solgaleo",

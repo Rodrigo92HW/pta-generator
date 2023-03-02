@@ -56,8 +56,10 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
       //Constante que se encarga de trakear el numero de movimientos que el pokemon posee
       const [moveCount, setMoveCount] = useState(3);
     //Parte de Legendary
-      //Datos de Legendario
-      const [legendary, setLegendary] = useState([]);
+      //Activos de Legendario
+      const [legendaryActive, setLegendaryActive] = useState([]);
+      //Pasivos de Legendario
+      const [legendaryPassive, setLegendaryPassive] = useState([]);
 
   //Funciones Internas
     //Mapea los nombres de los Pokemon
@@ -132,11 +134,11 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
       moves,
       selectedTypes,
       uploadedImage,
-      legendary,
+      legendaryActive,
       moveCount
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [index, pokemonName, inputDisabled, pokemonSelected, stats, actualHP, info, gender, pokemonType, passiveInfo, skillsInfo, natureSelected, itemEquipped, extras, image, moves, selectedTypes, uploadedImage, moveCount, legendary]);
+  }, [index, pokemonName, inputDisabled, pokemonSelected, stats, actualHP, info, gender, pokemonType, passiveInfo, skillsInfo, natureSelected, itemEquipped, extras, image, moves, selectedTypes, uploadedImage, moveCount, legendaryActive]);
 
   //Esto aplica toda la data guardado, pero primero establece un switch para no resetear las cosas
   const [dataAlreadySet, setDataAlreadySet] = useState(false);
@@ -161,7 +163,7 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
       setSelectedTypes(pokemonData.selectedTypes || '');
       setMoveCount(pokemonData.moveCount || '');
       setUploadedImage(pokemonData.uploadedImage || '');
-      setLegendary(pokemonData.legendary || [])
+      setLegendaryActive(pokemonData.legendaryActive || [])
       setDataAlreadySet(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -207,13 +209,6 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
             setActualHP={setActualHP}
           />
           </div>
-          <PokemonLegendary
-            dataAlreadySet={dataAlreadySet}
-            pokemonSelected={pokemonSelected}
-            inputDisabled={inputDisabled}
-            legendary={legendary}
-            setLegendary={setLegendary}
-          />
           <PokemonMovements
             dataAlreadySet={dataAlreadySet}
             pokemonSelected={pokemonSelected}
@@ -249,6 +244,24 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
             setNatureSelected={setNatureSelected}
             extras={extras}
             setExtras={setExtras}
+          />
+          <PokemonLegendary
+            legendaryActive={legendaryActive}
+            setLegendaryActive={setLegendaryActive}
+            legendaryPassive={legendaryPassive}
+            setLegendaryPassive={setLegendaryPassive}
+            dataAlreadySet={dataAlreadySet}
+            pokemonSelected={pokemonSelected}
+            inputDisabled={inputDisabled}
+            stats={stats} 
+            pokemonType={pokemonType}
+            moves={moves}
+            setMoves={setMoves}
+            selectedTypes={selectedTypes}
+            setSelectedTypes={setSelectedTypes}
+            moveCount={moveCount}
+            setMoveCount={setMoveCount}
+            typeColors={typeColors}
           />
       </div>
     ) : (

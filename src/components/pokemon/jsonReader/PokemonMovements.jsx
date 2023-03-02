@@ -23,7 +23,7 @@ const PokemonMovements = ({dataAlreadySet, pokemonSelected, inputDisabled, stats
     } : {};
   }
 
-      //Se encarga de mapear los tipos de los movimientos
+      //Se encarga de mapear los tipos y datos de los movimientos
       useEffect(() => {
         const [selectedPokemon] = pokemon.filter(x => x.Name === pokemonSelected.value);
         if(selectedPokemon && !dataAlreadySet) {
