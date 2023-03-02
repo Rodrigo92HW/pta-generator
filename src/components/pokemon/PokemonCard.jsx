@@ -260,7 +260,6 @@ const PokemonCard = ({updatePokemonData, index, pokemonData, searchedPokemon}) =
             selectedTypes={selectedTypes}
             setSelectedTypes={setSelectedTypes}
             moveCount={moveCount}
-            setMoveCount={setMoveCount}
             typeColors={typeColors}
           />
       </div>
