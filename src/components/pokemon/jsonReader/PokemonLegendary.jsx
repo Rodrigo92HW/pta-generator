@@ -64,61 +64,64 @@ const PokemonLegendary = ({dataAlreadySet, pokemonSelected, inputDisabled, stats
   const STAB = (index) => pokemonType.map(type => type.value).includes(selectedTypes[index]) ? 4 : 0;
 
 return (
-  <div className='pokemonLegendary'>
-    <h1>Legendary</h1>
-    <div className='legendaryPassive'>
-      {legendaryPassive.length > 0 ? (
-        legendaryPassive.map((legendaryPassive, index) => (
-          <div key={index} className='move Passive'>
-            {legendaryPassive && (
+  <>{legendaryActive.length > 0 || legendaryPassive.length > 0 ? (
+    <div className='pokemonLegendary'>
+      <h1>Legendary</h1>
+      <div className='legendaryPassive'>
+        {legendaryPassive.length > 0 ? (
+          legendaryPassive.map((legendaryPassive, index) => (
+            <div key={index} className='move Passive'>
+              {legendaryPassive && (
+                <>
+                  <div className='name'>{legendaryPassive.Name}</div>
+                  <div className='effect'>{legendaryPassive.Effect}</div>
+                </>
+              )}
+            </div>
+          ))
+        ) : (null)}
+        </div>
+      <div className='legendaryActive'>
+      {legendaryActive.length > 0 ? (
+      <div className='pokemonLegendaryDisplay'>
+        {legendaryActive.slice(0, moveCount).map((move, index) => (
+          <div key={index} className={`move ${selectedTypes[index]}`} style={{background: `linear-gradient(to left, ${typeColors[selectedTypes[index]]}, #F7F7F7)`}}>
+            <div className='moveName'>{move.Name}</div>
+            <div className='moveType'>
+              <ReactSelect
+                className='select MoveType' 
+                value={typeOptions.find(option => option.value === selectedTypes[index])}
+                options={typeOptions} 
+                onChange={selectedOption => changeType(index, selectedOption)}
+                isDisabled={inputDisabled}
+              />
+            </div>
+            <div className='moveFrequency'>{move.Frequency}</div>
+          <div className='moveRange'>
+            {move.RangeNumber ? (
               <>
-                <div className='name'>{legendaryPassive.Name}</div>
-                <div className='effect'>{legendaryPassive.Effect}</div>
+                {move.Range} {move.RangeNumber} ft.
               </>
-            )}
+            ) : null}
+            {move.RangeArea ? (
+            <div className='moveRangeArea'>{move.RangeArea} ({move.RangeAreaNumber} ft.)</div>
+            ) : null}
           </div>
-        ))
-      ) : (null)}
+          <div className='moveAccuracy'>1d20+{stats[move.StatAdded]}</div>
+          {move.Damage ? (
+          <div className='moveDamage'>{move.Damage}+{stats[move.StatAdded] + STAB(index)}</div>
+          ) : null}
+          {move.Effect ? (
+            <div className='moveEffect'>{move.Effect}</div>
+            ) : null}
+          </div>
+        ))}
       </div>
-    <div className='legendaryActive'>
-    {legendaryActive.length > 0 ? (
-    <div className='pokemonLegendaryDisplay'>
-      {legendaryActive.slice(0, moveCount).map((move, index) => (
-        <div key={index} className={`move ${selectedTypes[index]}`} style={{background: `linear-gradient(to left, ${typeColors[selectedTypes[index]]}, #F7F7F7)`}}>
-          <div className='moveName'>{move.Name}</div>
-          <div className='moveType'>
-            <ReactSelect
-              className='select MoveType' 
-              value={typeOptions.find(option => option.value === selectedTypes[index])}
-              options={typeOptions} 
-              onChange={selectedOption => changeType(index, selectedOption)}
-              isDisabled={inputDisabled}
-            />
-          </div>
-          <div className='moveFrequency'>{move.Frequency}</div>
-        <div className='moveRange'>
-          {move.RangeNumber ? (
-            <>
-              {move.Range} {move.RangeNumber} ft.
-            </>
-          ) : null}
-          {move.RangeArea ? (
-          <div className='moveRangeArea'>{move.RangeArea} ({move.RangeAreaNumber} ft.)</div>
-          ) : null}
-        </div>
-        <div className='moveAccuracy'>1d20+{stats[move.StatAdded]}</div>
-        {move.Damage ? (
-        <div className='moveDamage'>{move.Damage}+{stats[move.StatAdded] + STAB(index)}</div>
-        ) : null}
-        {move.Effect ? (
-          <div className='moveEffect'>{move.Effect}</div>
-          ) : null}
-        </div>
-      ))}
+      ) : null}
+      </div>
     </div>
-    ) : null}
-    </div>
-  </div>
+  ): null}
+  </>
 )}
 
 export default PokemonLegendary;

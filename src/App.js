@@ -11,7 +11,7 @@ import PokemonTeam from './components/PokemonTeam';
 const App = () => {
 
   return (
-    <div className='page'>
+    <>
       <Router basename={process.env.PUBLIC_URL}>
         <Header/>
           <Routes>
@@ -23,7 +23,7 @@ const App = () => {
           </Routes>
         <Footer/>
       </Router>
-    </div>
+    </>
   );
 }
 

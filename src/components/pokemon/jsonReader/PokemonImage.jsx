@@ -20,9 +20,9 @@ const PokemonImage = ({inputDisabled, image, index, uploadedImage, setUploadedIm
   return (
     <div className='pokemonImage'>
       {uploadedImage[index] ? (
-        <img className="imagePokemon" src={uploadedImage[index]} alt="" style={{width: '200px', height: '190px'}} />
+        <img className="imagePokemon" src={uploadedImage[index]} alt="" style={{width: '150px', height: '150px'}} />
       ) : (
-        <img className="imagePokemon" src={image} alt="" style={{width: '200px', height: '190px'}} />
+        <img className="imagePokemon" src={image} alt="" style={{width: '150px', height: '150px'}} />
       )}
       <form>
         <button type="button" onClick={() => document.getElementById(`myFile${index}`).click()} disabled={inputDisabled}></button>
